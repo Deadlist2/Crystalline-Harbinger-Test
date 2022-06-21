@@ -1,0 +1,174 @@
+
+crystal_harbinger.sprite.attack_guard.png
+size: 3910,1639
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ash01
+  rotate: false
+  xy: 3208, 141
+  size: 74, 72
+  orig: 74, 72
+  offset: 0, 0
+  index: -1
+ash02
+  rotate: false
+  xy: 1067, 11
+  size: 73, 66
+  orig: 73, 66
+  offset: 0, 0
+  index: -1
+ash03
+  rotate: true
+  xy: 2910, 828
+  size: 77, 82
+  orig: 77, 82
+  offset: 0, 0
+  index: -1
+ash04
+  rotate: false
+  xy: 2941, 129
+  size: 91, 84
+  orig: 91, 84
+  offset: 0, 0
+  index: -1
+ash05
+  rotate: true
+  xy: 987, 5
+  size: 72, 78
+  orig: 72, 78
+  offset: 0, 0
+  index: -1
+ash06
+  rotate: true
+  xy: 836, 2
+  size: 75, 63
+  orig: 75, 63
+  offset: 0, 0
+  index: -1
+ash07
+  rotate: false
+  xy: 3034, 126
+  size: 88, 87
+  orig: 88, 87
+  offset: 0, 0
+  index: -1
+ash08
+  rotate: false
+  xy: 2994, 831
+  size: 80, 74
+  orig: 80, 74
+  offset: 0, 0
+  index: -1
+ash09
+  rotate: false
+  xy: 2846, 129
+  size: 93, 84
+  orig: 93, 84
+  offset: 0, 0
+  index: -1
+ash10
+  rotate: false
+  xy: 3269, 907
+  size: 80, 71
+  orig: 80, 71
+  offset: 0, 0
+  index: -1
+ash11
+  rotate: false
+  xy: 3284, 147
+  size: 73, 66
+  orig: 73, 66
+  offset: 0, 0
+  index: -1
+ash12
+  rotate: false
+  xy: 3124, 140
+  size: 82, 73
+  orig: 82, 73
+  offset: 0, 0
+  index: -1
+ash13
+  rotate: true
+  xy: 901, 3
+  size: 74, 84
+  orig: 74, 84
+  offset: 0, 0
+  index: -1
+ash14
+  rotate: false
+  xy: 3351, 907
+  size: 69, 71
+  orig: 69, 71
+  offset: 0, 0
+  index: -1
+ash15
+  rotate: false
+  xy: 3157, 840
+  size: 68, 65
+  orig: 68, 65
+  offset: 0, 0
+  index: -1
+ash16
+  rotate: false
+  xy: 3076, 838
+  size: 79, 67
+  orig: 79, 67
+  offset: 0, 0
+  index: -1
+ash_cloud01
+  rotate: true
+  xy: 1738, 824
+  size: 813, 1170
+  orig: 813, 1170
+  offset: 0, 0
+  index: -1
+ash_cloud02
+  rotate: true
+  xy: 1738, 120
+  size: 702, 1106
+  orig: 702, 1106
+  offset: 0, 0
+  index: -1
+ash_cloud03
+  rotate: true
+  xy: 2846, 215
+  size: 607, 1024
+  orig: 607, 1024
+  offset: 0, 0
+  index: -1
+ash_cloud04
+  rotate: true
+  xy: 2910, 980
+  size: 657, 998
+  orig: 657, 998
+  offset: 0, 0
+  index: -1
+attack_guard
+  rotate: true
+  xy: 2, 543
+  size: 1094, 1734
+  orig: 1094, 1734
+  offset: 0, 0
+  index: -1
+crystalized_shells01
+  rotate: true
+  xy: 2, 7
+  size: 534, 832
+  orig: 534, 832
+  offset: 0, 0
+  index: -1
+crystalized_shells02
+  rotate: true
+  xy: 836, 79
+  size: 462, 860
+  orig: 462, 860
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 2910, 907
+  size: 71, 357
+  orig: 71, 357
+  offset: 0, 0
+  index: -1

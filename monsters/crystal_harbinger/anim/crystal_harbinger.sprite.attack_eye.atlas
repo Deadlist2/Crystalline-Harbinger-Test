@@ -1,0 +1,160 @@
+
+crystal_harbinger.sprite.attack_eye.png
+size: 3910,1185
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ash01
+  rotate: false
+  xy: 2035, 8
+  size: 96, 102
+  orig: 96, 102
+  offset: 0, 0
+  index: -1
+ash02
+  rotate: true
+  xy: 2561, 19
+  size: 105, 92
+  orig: 105, 92
+  offset: 0, 0
+  index: -1
+ash03
+  rotate: true
+  xy: 2561, 19
+  size: 105, 92
+  orig: 105, 92
+  offset: 0, 0
+  index: -1
+ash04
+  rotate: true
+  xy: 2655, 25
+  size: 99, 96
+  orig: 99, 96
+  offset: 0, 0
+  index: -1
+ash05
+  rotate: false
+  xy: 2753, 22
+  size: 93, 102
+  orig: 93, 102
+  offset: 0, 0
+  index: -1
+ash06
+  rotate: false
+  xy: 2231, 9
+  size: 96, 101
+  orig: 96, 101
+  offset: 0, 0
+  index: -1
+ash07
+  rotate: false
+  xy: 2133, 8
+  size: 96, 102
+  orig: 96, 102
+  offset: 0, 0
+  index: -1
+ash08
+  rotate: false
+  xy: 2329, 2
+  size: 113, 122
+  orig: 113, 122
+  offset: 0, 0
+  index: -1
+ash09
+  rotate: true
+  xy: 2444, 8
+  size: 116, 115
+  orig: 116, 115
+  offset: 0, 0
+  index: -1
+ash10
+  rotate: false
+  xy: 1736, 5
+  size: 100, 105
+  orig: 100, 105
+  offset: 0, 0
+  index: -1
+ash11
+  rotate: true
+  xy: 3750, 509
+  size: 92, 95
+  orig: 92, 95
+  offset: 0, 0
+  index: -1
+ash12
+  rotate: false
+  xy: 2848, 27
+  size: 97, 97
+  orig: 97, 97
+  offset: 0, 0
+  index: -1
+ash13
+  rotate: false
+  xy: 3750, 417
+  size: 93, 90
+  orig: 93, 90
+  offset: 0, 0
+  index: -1
+ash14
+  rotate: false
+  xy: 2947, 27
+  size: 95, 97
+  orig: 95, 97
+  offset: 0, 0
+  index: -1
+ash15
+  rotate: true
+  xy: 1935, 9
+  size: 101, 98
+  orig: 101, 98
+  offset: 0, 0
+  index: -1
+ash16
+  rotate: true
+  xy: 1838, 3
+  size: 107, 95
+  orig: 107, 95
+  offset: 0, 0
+  index: -1
+ash_cloud01
+  rotate: true
+  xy: 3044, 22
+  size: 579, 704
+  orig: 579, 704
+  offset: 0, 0
+  index: -1
+ash_cloud02
+  rotate: true
+  xy: 2997, 603
+  size: 580, 911
+  orig: 580, 911
+  offset: 0, 0
+  index: -1
+ash_cloud03
+  rotate: false
+  xy: 1377, 112
+  size: 854, 1071
+  orig: 854, 1071
+  offset: 0, 0
+  index: -1
+ash_cloud04
+  rotate: false
+  xy: 2233, 126
+  size: 762, 1057
+  orig: 762, 1057
+  offset: 0, 0
+  index: -1
+attack_eye
+  rotate: false
+  xy: 2, 14
+  size: 1373, 1169
+  orig: 1373, 1169
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 1377, 39
+  size: 71, 357
+  orig: 71, 357
+  offset: 0, 0
+  index: -1

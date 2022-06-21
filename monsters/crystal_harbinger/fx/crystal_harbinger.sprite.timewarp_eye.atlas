@@ -1,0 +1,34 @@
+
+crystal_harbinger.sprite.timewarp_eye.png
+size: 2060,949
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+rend_light01
+  rotate: false
+  xy: 2, 2
+  size: 954, 945
+  orig: 954, 945
+  offset: 0, 0
+  index: -1
+rend_light02
+  rotate: false
+  xy: 958, 309
+  size: 640, 638
+  orig: 640, 638
+  offset: 0, 0
+  index: -1
+rim_light
+  rotate: true
+  xy: 1600, 120
+  size: 350, 442
+  orig: 350, 442
+  offset: 0, 0
+  index: -1
+warp_light
+  rotate: false
+  xy: 1600, 472
+  size: 458, 475
+  orig: 458, 475
+  offset: 0, 0
+  index: -1

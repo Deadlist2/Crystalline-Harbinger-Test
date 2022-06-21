@@ -1,0 +1,10 @@
+{
+   "rarities":
+   [
+        {
+            "id": "crystal_trophy",
+            "award_category": "trophy",
+            "insert_before": "thing"
+        }
+   ]
+}

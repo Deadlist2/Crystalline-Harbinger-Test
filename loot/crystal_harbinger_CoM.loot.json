@@ -1,0 +1,41 @@
+{
+   "loot_tables" :
+   [
+      {
+         "id" : "CRYSTAL_HARBINGER_TRINKET",
+         "difficulty" : 1,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "trinket", "chances" : 2, "data" : { "rarity" : "rare" }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "very_rare" }}
+         ]
+      },
+      {
+         "id" : "CRYSTAL_HARBINGER_TRINKET",
+         "difficulty" : 3,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "trinket", "chances" : 2, "data" : { "rarity" : "rare" }},
+            { "type" : "trinket", "chances" : 2, "data" : { "rarity" : "very_rare" }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "ancestral" }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "crystal_trophy" }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "heirloom", "id" : "memory", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "CRYSTAL_HARBINGER_TRINKET",
+         "difficulty" : 5,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "rare" }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "very_rare" }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "ancestral" }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "crystal_trophy" }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "heirloom", "id" : "memory", "amount" : 1 }}
+         ]
+      }
+   ]
+}

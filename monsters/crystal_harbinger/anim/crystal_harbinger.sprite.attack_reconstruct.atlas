@@ -1,0 +1,202 @@
+
+crystal_harbinger.sprite.attack_reconstruct.png
+size: 3730,2316
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ash01
+  rotate: false
+  xy: 3689, 1338
+  size: 38, 37
+  orig: 38, 37
+  offset: 0, 0
+  index: -1
+ash02
+  rotate: true
+  xy: 1816, 816
+  size: 40, 45
+  orig: 40, 45
+  offset: 0, 0
+  index: -1
+ash03
+  rotate: false
+  xy: 2142, 872
+  size: 49, 57
+  orig: 49, 57
+  offset: 0, 0
+  index: -1
+ash04
+  rotate: false
+  xy: 2193, 882
+  size: 45, 47
+  orig: 45, 47
+  offset: 0, 0
+  index: -1
+ash05
+  rotate: false
+  xy: 2078, 867
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1
+ash06
+  rotate: false
+  xy: 1469, 43
+  size: 62, 71
+  orig: 62, 71
+  offset: 0, 0
+  index: -1
+ash07
+  rotate: false
+  xy: 3288, 453
+  size: 55, 59
+  orig: 55, 59
+  offset: 0, 0
+  index: -1
+ash08
+  rotate: false
+  xy: 1771, 813
+  size: 43, 43
+  orig: 43, 43
+  offset: 0, 0
+  index: -1
+ash09
+  rotate: false
+  xy: 1651, 70
+  size: 48, 44
+  orig: 48, 44
+  offset: 0, 0
+  index: -1
+ash10
+  rotate: false
+  xy: 3288, 401
+  size: 47, 50
+  orig: 47, 50
+  offset: 0, 0
+  index: -1
+ash11
+  rotate: false
+  xy: 3288, 359
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+ash12
+  rotate: false
+  xy: 1533, 60
+  size: 64, 54
+  orig: 64, 54
+  offset: 0, 0
+  index: -1
+ash13
+  rotate: false
+  xy: 1599, 62
+  size: 50, 52
+  orig: 50, 52
+  offset: 0, 0
+  index: -1
+ash14
+  rotate: true
+  xy: 1719, 813
+  size: 43, 50
+  orig: 43, 50
+  offset: 0, 0
+  index: -1
+ash15
+  rotate: false
+  xy: 3288, 514
+  size: 60, 65
+  orig: 60, 65
+  offset: 0, 0
+  index: -1
+ash16
+  rotate: true
+  xy: 3689, 1377
+  size: 35, 39
+  orig: 35, 39
+  offset: 0, 0
+  index: -1
+ash17
+  rotate: false
+  xy: 3461, 543
+  size: 30, 36
+  orig: 30, 36
+  offset: 0, 0
+  index: -1
+ash18
+  rotate: false
+  xy: 3689, 1414
+  size: 39, 39
+  orig: 39, 39
+  offset: 0, 0
+  index: -1
+ash19
+  rotate: false
+  xy: 3350, 526
+  size: 55, 53
+  orig: 55, 53
+  offset: 0, 0
+  index: -1
+ash20
+  rotate: false
+  xy: 3407, 534
+  size: 52, 45
+  orig: 52, 45
+  offset: 0, 0
+  index: -1
+ash_cloud01
+  rotate: false
+  xy: 2524, 1455
+  size: 1192, 859
+  orig: 1192, 859
+  offset: 0, 0
+  index: -1
+ash_cloud02
+  rotate: false
+  xy: 1719, 931
+  size: 803, 1383
+  orig: 803, 1383
+  offset: 0, 0
+  index: -1
+ash_cloud03
+  rotate: true
+  xy: 2, 16
+  size: 795, 1465
+  orig: 795, 1465
+  offset: 0, 0
+  index: -1
+ash_cloud04
+  rotate: false
+  xy: 1469, 116
+  size: 431, 695
+  orig: 431, 695
+  offset: 0, 0
+  index: -1
+ash_cloud05
+  rotate: true
+  xy: 2524, 581
+  size: 872, 1163
+  orig: 872, 1163
+  offset: 0, 0
+  index: -1
+ash_glow
+  rotate: true
+  xy: 1902, 2
+  size: 577, 1384
+  orig: 577, 1384
+  offset: 0, 0
+  index: -1
+attack_construct
+  rotate: false
+  xy: 2, 813
+  size: 1715, 1501
+  orig: 1715, 1501
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 1719, 858
+  size: 71, 357
+  orig: 71, 357
+  offset: 0, 0
+  index: -1

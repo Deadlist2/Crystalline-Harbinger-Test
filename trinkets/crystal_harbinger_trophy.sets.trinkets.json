@@ -1,0 +1,15 @@
+{
+   "sets":
+   [
+      {
+         "id" : "crystal_harbinger_trophy_set",
+         "buffs" : 
+         [
+            "crystal_trophy_bonus_set_husk_damage_low_buff",
+            "crystal_trophy_bonus_set_husk_damage_high_buff",
+            "crystal_trophy_bonus_set_husk_armor_pierce_buff",
+            "crystal_trophy_bonus_set_husk_crit_buff"
+         ]
+      }
+   ]
+}

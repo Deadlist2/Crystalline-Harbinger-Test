@@ -1,0 +1,23 @@
+{
+    "event_guid_overrides":
+    [
+{"event_id": "event:/char/enemy/crystal_harbinger_crystal_polish_miss",		"guid_override":"{43b9bd1c-95cb-4fc9-b9ab-719918333480}"},
+{"event_id": "event:/char/enemy/crystal_harbinger_crystal_polish",		"guid_override":"{2940eb1b-10a9-47db-817f-73c37929661d}"},
+{"event_id": "event:/char/enemy/crystal_harbinger_crystalline_gaze",		"guid_override":"{853d96b0-35f9-4abf-9910-1f08ea311890}"},
+{"event_id": "event:/char/enemy/crystal_harbinger_crystalline_gaze_miss",	"guid_override":"{bf58883c-a6c8-4aaa-9b9b-45877e3e35d2}"},
+{"event_id": "event:/char/enemy/crystal_harbinger_liquidized_slash",		"guid_override":"{21281d40-8dd1-47a6-ae6d-f8b21dddadb9}"},
+{"event_id": "event:/char/enemy/crystal_harbinger_liquidized_slash_miss",	"guid_override":"{610d74d7-3341-4c92-a3dd-83a1e1493147}"},
+{"event_id": "event:/char/enemy/crystal_harbinger_reconstuct_herald",		"guid_override":"{8e6ecf46-530a-4078-a0d9-4299c76aeced}"},
+{"event_id": "event:/char/enemy/crystal_harbinger_reconstuct_herald_miss",	"guid_override":"{b22d0cc5-c5af-4d96-8faa-8b641505cc33}"},
+{"event_id": "event:/char/enemy/crystal_harbinger_crystal_harbinger_riposte",			"guid_override":"{abc9b716-2398-4b60-a249-2bc4485a465c}"},
+{"event_id": "event:/char/enemy/crystal_harbinger_crystal_harbinger_riposte_miss",		"guid_override":"{8a944142-897f-4dc6-bbcc-b23361db05d0}"},
+{"event_id": "event:/char/enemy/crystal_harbinger_shell_protection",		"guid_override":"{c2a1bf23-10e3-4331-ba45-97bb9733ea47}"},
+{"event_id": "event:/char/enemy/crystal_harbinger_shell_protection_miss",	"guid_override":"{3311c0a2-90d1-403c-9538-6108ea376561}"},
+{"event_id": "event:/char/enemy/crystal_harbinger_timewarp_eye",		"guid_override":"{97263550-0fdf-47a0-af1a-ae101ab15807}"},
+{"event_id": "event:/char/enemy/crystal_harbinger_timewarp_eye_miss",	"guid_override":"{56eabc73-e002-4b8f-adad-97aeee1da74a}"},
+{"event_id": "event:/char/enemy/crystal_harbinger_vo_aggro",		"guid_override":"{0e05d79d-ea0f-41b4-8ac2-253179f62d5d}"},
+{"event_id": "event:/char/enemy/crystal_harbinger_vo_death",		"guid_override":"{1e68025a-9573-4451-875b-c9d186adb267}"},
+{"event_id": " event:/char/enemy/crystal_harbinger_vo_crit",			"guid_override":"{fee4fb97-9d83-4576-b3c6-a1499e4b8a7c}"},
+{"event_id": "event:/char/enemy/crystal_harbinger_vo_hurt",			"guid_override":"{a402375c-4951-4de8-af55-76904c4222a3}"}
+    ]
+}

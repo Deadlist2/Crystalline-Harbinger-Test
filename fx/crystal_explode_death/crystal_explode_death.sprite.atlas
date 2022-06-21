@@ -1,0 +1,594 @@
+
+crystal_explode_death.sprite.png
+size: 3060,2062
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 962
+  size: 636, 1098
+  orig: 636, 1098
+  offset: 0, 0
+  index: -1
+claws01
+  rotate: false
+  xy: 2139, 1521
+  size: 506, 539
+  orig: 506, 539
+  offset: 0, 0
+  index: -1
+claws02
+  rotate: false
+  xy: 2647, 1521
+  size: 400, 539
+  orig: 400, 539
+  offset: 0, 0
+  index: -1
+cracks01
+  rotate: true
+  xy: 1668, 1029
+  size: 252, 478
+  orig: 252, 478
+  offset: 0, 0
+  index: -1
+cracks02
+  rotate: false
+  xy: 2, 179
+  size: 538, 781
+  orig: 538, 781
+  offset: 0, 0
+  index: -1
+crystal_small01
+  rotate: true
+  xy: 1949, 10
+  size: 33, 50
+  orig: 33, 50
+  offset: 0, 0
+  index: -1
+crystal_small02
+  rotate: false
+  xy: 2321, 69
+  size: 39, 48
+  orig: 39, 48
+  offset: 0, 0
+  index: -1
+crystal_small03
+  rotate: true
+  xy: 2093, 971
+  size: 56, 34
+  orig: 56, 34
+  offset: 0, 0
+  index: -1
+crystal_small04
+  rotate: false
+  xy: 2755, 1242
+  size: 26, 40
+  orig: 26, 40
+  offset: 0, 0
+  index: -1
+crystal_small05
+  rotate: false
+  xy: 1792, 207
+  size: 31, 27
+  orig: 31, 27
+  offset: 0, 0
+  index: -1
+crystal_small06
+  rotate: false
+  xy: 2476, 227
+  size: 31, 30
+  orig: 31, 30
+  offset: 0, 0
+  index: -1
+crystal_small07
+  rotate: false
+  xy: 1507, 376
+  size: 28, 42
+  orig: 28, 42
+  offset: 0, 0
+  index: -1
+crystal_small08
+  rotate: true
+  xy: 1183, 427
+  size: 31, 36
+  orig: 31, 36
+  offset: 0, 0
+  index: -1
+crystal_small09
+  rotate: true
+  xy: 359, 2
+  size: 25, 33
+  orig: 25, 33
+  offset: 0, 0
+  index: -1
+crystal_small10
+  rotate: true
+  xy: 2755, 950
+  size: 34, 30
+  orig: 34, 30
+  offset: 0, 0
+  index: -1
+death_particles_fx
+  rotate: false
+  xy: 1221, 553
+  size: 356, 481
+  orig: 356, 481
+  offset: 0, 0
+  index: -1
+death_stars_fx
+  rotate: false
+  xy: 542, 370
+  size: 356, 590
+  orig: 356, 590
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 2148, 950
+  size: 332, 605
+  orig: 332, 605
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 1579, 376
+  size: 71, 357
+  orig: 71, 357
+  offset: 0, 0
+  index: -1
+shattered_crystal_body01
+  rotate: false
+  xy: 1668, 1283
+  size: 469, 777
+  orig: 469, 777
+  offset: 0, 0
+  index: -1
+shattered_crystal_body_part01
+  rotate: false
+  xy: 2624, 677
+  size: 182, 271
+  orig: 182, 271
+  offset: 0, 0
+  index: -1
+shattered_crystal_body_part02
+  rotate: true
+  xy: 2086, 429
+  size: 257, 528
+  orig: 257, 528
+  offset: 0, 0
+  index: -1
+shattered_crystal_body_part03
+  rotate: true
+  xy: 1221, 420
+  size: 131, 356
+  orig: 131, 356
+  offset: 0, 0
+  index: -1
+shattered_crystal_body_part04
+  rotate: true
+  xy: 2093, 688
+  size: 260, 529
+  orig: 260, 529
+  offset: 0, 0
+  index: -1
+shattered_crystal_body_part05
+  rotate: true
+  xy: 2063, 244
+  size: 78, 208
+  orig: 78, 208
+  offset: 0, 0
+  index: -1
+shattered_crystal_body_part06
+  rotate: true
+  xy: 2616, 254
+  size: 108, 173
+  orig: 108, 173
+  offset: 0, 0
+  index: -1
+shattered_crystal_body_part07
+  rotate: true
+  xy: 2273, 208
+  size: 105, 201
+  orig: 105, 201
+  offset: 0, 0
+  index: -1
+shattered_crystal_body_part08
+  rotate: true
+  xy: 2063, 324
+  size: 103, 219
+  orig: 103, 219
+  offset: 0, 0
+  index: -1
+shattered_crystal_body_part09
+  rotate: false
+  xy: 1825, 207
+  size: 111, 167
+  orig: 111, 167
+  offset: 0, 0
+  index: -1
+shattered_crystal_head_part01
+  rotate: false
+  xy: 2978, 262
+  size: 53, 104
+  orig: 53, 104
+  offset: 0, 0
+  index: -1
+shattered_crystal_head_part02
+  rotate: false
+  xy: 1911, 9
+  size: 36, 54
+  orig: 36, 54
+  offset: 0, 0
+  index: -1
+shattered_crystal_head_part03
+  rotate: false
+  xy: 1440, 31
+  size: 56, 136
+  orig: 56, 136
+  offset: 0, 0
+  index: -1
+shattered_crystal_head_part04
+  rotate: false
+  xy: 2039, 61
+  size: 51, 180
+  orig: 51, 180
+  offset: 0, 0
+  index: -1
+shattered_crystal_head_part05
+  rotate: true
+  xy: 1628, 2
+  size: 15, 39
+  orig: 15, 39
+  offset: 0, 0
+  index: -1
+shattered_crystal_head_part06
+  rotate: true
+  xy: 1628, 19
+  size: 64, 115
+  orig: 64, 115
+  offset: 0, 0
+  index: -1
+shattered_crystal_head_part07
+  rotate: false
+  xy: 2817, 1242
+  size: 236, 277
+  orig: 236, 277
+  offset: 0, 0
+  index: -1
+shattered_crystal_head_part08
+  rotate: true
+  xy: 2, 13
+  size: 164, 355
+  orig: 164, 355
+  offset: 0, 0
+  index: -1
+shattered_crystal_head_part09
+  rotate: true
+  xy: 1183, 26
+  size: 141, 255
+  orig: 141, 255
+  offset: 0, 0
+  index: -1
+shattered_crystal_head_part10
+  rotate: true
+  xy: 1507, 236
+  size: 138, 316
+  orig: 138, 316
+  offset: 0, 0
+  index: -1
+shattered_left_claw01
+  rotate: false
+  xy: 2092, 123
+  size: 151, 119
+  orig: 151, 119
+  offset: 0, 0
+  index: -1
+shattered_left_claw02
+  rotate: false
+  xy: 2390, 96
+  size: 117, 110
+  orig: 117, 110
+  offset: 0, 0
+  index: -1
+shattered_left_claw03
+  rotate: true
+  xy: 2245, 119
+  size: 87, 143
+  orig: 87, 143
+  offset: 0, 0
+  index: -1
+shattered_left_claw04
+  rotate: true
+  xy: 1002, 31
+  size: 101, 179
+  orig: 101, 179
+  offset: 0, 0
+  index: -1
+shattered_left_claw05
+  rotate: false
+  xy: 1949, 45
+  size: 88, 196
+  orig: 88, 196
+  offset: 0, 0
+  index: -1
+shattered_left_claw06
+  rotate: false
+  xy: 2756, 122
+  size: 88, 130
+  orig: 88, 130
+  offset: 0, 0
+  index: -1
+shattered_left_claw07
+  rotate: true
+  xy: 2509, 128
+  size: 129, 100
+  orig: 129, 100
+  offset: 0, 0
+  index: -1
+shattered_left_claw08
+  rotate: false
+  xy: 2092, 61
+  size: 96, 60
+  orig: 96, 60
+  offset: 0, 0
+  index: -1
+shattered_left_claw09
+  rotate: false
+  xy: 2755, 7
+  size: 101, 113
+  orig: 101, 113
+  offset: 0, 0
+  index: -1
+shattered_left_claw10
+  rotate: false
+  xy: 2982, 692
+  size: 56, 124
+  orig: 56, 124
+  offset: 0, 0
+  index: -1
+shattered_left_claw11
+  rotate: true
+  xy: 900, 401
+  size: 57, 95
+  orig: 57, 95
+  offset: 0, 0
+  index: -1
+shattered_left_shell01
+  rotate: true
+  xy: 542, 108
+  size: 260, 453
+  orig: 260, 453
+  offset: 0, 0
+  index: -1
+shattered_left_shell02
+  rotate: false
+  xy: 2771, 368
+  size: 253, 297
+  orig: 253, 297
+  offset: 0, 0
+  index: -1
+shattered_left_shell03
+  rotate: false
+  xy: 2808, 667
+  size: 172, 317
+  orig: 172, 317
+  offset: 0, 0
+  index: -1
+shattered_left_shell04
+  rotate: true
+  xy: 2755, 986
+  size: 254, 301
+  orig: 254, 301
+  offset: 0, 0
+  index: -1
+shattered_left_shell05
+  rotate: false
+  xy: 900, 460
+  size: 319, 516
+  orig: 319, 516
+  offset: 0, 0
+  index: -1
+shattered_right_claw01
+  rotate: true
+  xy: 359, 29
+  size: 148, 174
+  orig: 148, 174
+  offset: 0, 0
+  index: -1
+shattered_right_claw02
+  rotate: true
+  xy: 2791, 263
+  size: 103, 185
+  orig: 103, 185
+  offset: 0, 0
+  index: -1
+shattered_right_claw03
+  rotate: false
+  xy: 1853, 9
+  size: 56, 54
+  orig: 56, 54
+  offset: 0, 0
+  index: -1
+shattered_right_claw04
+  rotate: true
+  xy: 2974, 202
+  size: 58, 84
+  orig: 58, 84
+  offset: 0, 0
+  index: -1
+shattered_right_claw05
+  rotate: false
+  xy: 1938, 243
+  size: 123, 204
+  orig: 123, 204
+  offset: 0, 0
+  index: -1
+shattered_right_claw06
+  rotate: true
+  xy: 1745, 2
+  size: 61, 106
+  orig: 61, 106
+  offset: 0, 0
+  index: -1
+shattered_right_claw07
+  rotate: true
+  xy: 2284, 315
+  size: 112, 204
+  orig: 112, 204
+  offset: 0, 0
+  index: -1
+shattered_right_claw08
+  rotate: true
+  xy: 535, 2
+  size: 104, 200
+  orig: 104, 200
+  offset: 0, 0
+  index: -1
+shattered_right_claw09
+  rotate: true
+  xy: 1498, 4
+  size: 79, 128
+  orig: 79, 128
+  offset: 0, 0
+  index: -1
+shattered_right_claw10
+  rotate: false
+  xy: 2982, 818
+  size: 67, 166
+  orig: 67, 166
+  offset: 0, 0
+  index: -1
+shattered_right_claw11
+  rotate: false
+  xy: 1792, 65
+  size: 155, 140
+  orig: 155, 140
+  offset: 0, 0
+  index: -1
+shattered_right_claw12
+  rotate: false
+  xy: 737, 15
+  size: 263, 91
+  orig: 263, 91
+  offset: 0, 0
+  index: -1
+shattered_right_claw13
+  rotate: false
+  xy: 2039, 2
+  size: 140, 57
+  orig: 140, 57
+  offset: 0, 0
+  index: -1
+shattered_right_shell01
+  rotate: true
+  xy: 1579, 718
+  size: 309, 512
+  orig: 309, 512
+  offset: 0, 0
+  index: -1
+shattered_right_shell02
+  rotate: true
+  xy: 1579, 449
+  size: 267, 505
+  orig: 267, 505
+  offset: 0, 0
+  index: -1
+shattered_right_shell03
+  rotate: true
+  xy: 2139, 1284
+  size: 235, 676
+  orig: 235, 676
+  offset: 0, 0
+  index: -1
+shattered_right_shell04
+  rotate: true
+  xy: 997, 134
+  size: 324, 184
+  orig: 324, 184
+  offset: 0, 0
+  index: -1
+shattered_right_shell05
+  rotate: true
+  xy: 1183, 169
+  size: 249, 322
+  orig: 249, 322
+  offset: 0, 0
+  index: -1
+shell01
+  rotate: false
+  xy: 1208, 1036
+  size: 458, 1024
+  orig: 458, 1024
+  offset: 0, 0
+  index: -1
+shell02
+  rotate: false
+  xy: 640, 978
+  size: 566, 1082
+  orig: 566, 1082
+  offset: 0, 0
+  index: -1
+shell_horns01
+  rotate: true
+  xy: 2616, 364
+  size: 311, 153
+  orig: 311, 153
+  offset: 0, 0
+  index: -1
+shell_horns02
+  rotate: false
+  xy: 1507, 85
+  size: 283, 149
+  orig: 283, 149
+  offset: 0, 0
+  index: -1
+shell_horns_broken_left01
+  rotate: true
+  xy: 2974, 126
+  size: 74, 83
+  orig: 74, 83
+  offset: 0, 0
+  index: -1
+shell_horns_broken_left02
+  rotate: false
+  xy: 2846, 127
+  size: 126, 134
+  orig: 126, 134
+  offset: 0, 0
+  index: -1
+shell_horns_broken_left03
+  rotate: false
+  xy: 2611, 132
+  size: 143, 120
+  orig: 143, 120
+  offset: 0, 0
+  index: -1
+shell_horns_broken_left04
+  rotate: true
+  xy: 2858, 27
+  size: 97, 125
+  orig: 97, 125
+  offset: 0, 0
+  index: -1
+shell_horns_broken_right01
+  rotate: true
+  xy: 2190, 26
+  size: 91, 129
+  orig: 91, 129
+  offset: 0, 0
+  index: -1
+shell_horns_broken_right02
+  rotate: true
+  xy: 2611, 20
+  size: 110, 142
+  orig: 110, 142
+  offset: 0, 0
+  index: -1
+shell_horns_broken_right03
+  rotate: true
+  xy: 2490, 259
+  size: 168, 124
+  orig: 168, 124
+  offset: 0, 0
+  index: -1

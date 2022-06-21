@@ -1,0 +1,139 @@
+{
+	"monster_brains": [{
+		"id": "crystal_harbinger_A",
+		"skill_cooldowns": [
+		{
+				"combat_skill_id": "shell_protection",
+				"amount": 6
+			},
+			{
+				"combat_skill_id": "crystalline_gaze",
+				"amount": 4
+			},
+			{
+				"combat_skill_id": "crystal_polish",
+				"amount": 8
+			},
+
+			{
+				"combat_skill_id": "timewarp_eye",
+				"amount": 5
+			}
+		],
+		"skill_selection_desires": [{
+				"type": "specific_skill",
+				"data": {
+					"base_chance": 10000.0,
+					"combat_skill_id": "reconstuct_herald",
+					"monsters_size_min": 2,
+					"monsters_size_max": 3
+				}
+			},
+			{
+				"type": "specific_skill",
+				"data": {
+					"base_chance": 1.0,
+					"combat_skill_id": "liquidized_slash"
+				}
+			},
+			{
+				"type": "stun_skill",
+				"data": {
+					"base_chance": 4.0,
+					"combat_skill_id": "crystalline_gaze",
+					"non_stunned_heroes_min": 1
+				}
+			},
+			{
+				"type": "specific_skill",
+				"data": {
+					"base_chance": 1.0,
+					"combat_skill_id": "timewarp_eye"
+				}
+			},
+			{
+				"type": "ally_alive_skill",
+				"data": {
+					"base_chance": -100000.0,
+					"combat_skill_id": "reconstuct_herald",
+					"ally_base_class_id": "revenant"
+				}
+			},
+			{
+				"type": "ally_alive_skill",
+				"data": {
+					"base_chance": 10.0,
+					"combat_skill_id": "crystal_polish",
+					"ally_base_class_id": "revenant"
+				}
+			},
+			{
+				"type": "ally_alive_skill",
+				"data": {
+					"base_chance": 100000.0,
+					"combat_skill_id": "shell_protection",
+					"ally_base_class_id": "revenant",
+					"guarded_monsters_min": 0,
+					"guarded_monsters_max": 1
+				}
+			}
+		],
+		"target_selection_desires": [{
+				"type": "stunned_target",
+				"data": {
+					"base_chance": -1000.0,
+					"specific_combat_skill_id": "crystalline_gaze",
+					"is_exclusive_desire": false,
+					"is_enemy_target_desire": true,
+					"is_friendly_target_desire": false
+				}
+			},
+			{
+				"type": "random_target",
+				"data": {
+					"base_chance": 1.0,
+					"specific_combat_skill_id": "",
+					"is_exclusive_desire": false,
+					"is_enemy_target_desire": true,
+					"is_friendly_target_desire": true
+				}
+			},
+			{
+				"type": "marked_target",
+				"data": {
+					"base_chance": 2.0,
+					"specific_combat_skill_id": "",
+					"is_exclusive_desire": false,
+					"is_enemy_target_desire": true,
+					"is_friendly_target_desire": false
+				}
+			},
+                {
+                    "type": "stress_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "crystalline_gaze",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false,
+                        "is_greater_comparison": true,
+                        "can_target_not_overstressed": true,
+                        "can_target_afflicted": true,
+                        "can_target_virtued": true
+                    }
+                },
+			{
+				"type": "ally_class_target",
+				"data": {
+					"base_chance": 5.0,
+					"specific_combat_skill_id": "",
+					"is_exclusive_desire": false,
+					"ally_base_class_id": "revenant_deadlist",
+					"is_enemy_target_desire": true,
+					"is_friendly_target_desire": false
+				}
+			}
+		],
+		"bonus_initiative_desires": []
+	}]
+}

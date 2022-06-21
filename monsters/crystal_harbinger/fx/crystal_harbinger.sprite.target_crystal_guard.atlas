@@ -1,0 +1,27 @@
+
+crystal_harbinger.sprite.target_crystal_guard.png
+size: 2079,903
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+crystalized_shells01
+  rotate: false
+  xy: 1079, 69
+  size: 534, 832
+  orig: 534, 832
+  offset: 0, 0
+  index: -1
+crystalized_shells02
+  rotate: false
+  xy: 1615, 41
+  size: 462, 860
+  orig: 462, 860
+  offset: 0, 0
+  index: -1
+guard_light
+  rotate: true
+  xy: 2, 2
+  size: 899, 1075
+  orig: 899, 1075
+  offset: 0, 0
+  index: -1

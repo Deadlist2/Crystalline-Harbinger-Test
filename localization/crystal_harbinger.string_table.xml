@@ -1,0 +1,926 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <language id="english">
+ 
+	<!--Names of Harbingers-->
+	<entry id="str_monstername_crystal_harbinger_A"><![CDATA[Created Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_B"><![CDATA[Reinforced Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_C"><![CDATA[Sleeper's Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_D"><![CDATA[Crystalline Harbinger]]></entry>
+	
+	<!--Harbinger's Skill Names-->
+	<entry id="str_monster_skill_liquidized_slash"><![CDATA[Liquidated Slash]]></entry>
+	<entry id="str_monster_skill_shell_protection"><![CDATA[Shell Protection]]></entry>
+	<entry id="str_monster_skill_reconstuct_herald"><![CDATA[Reconstruct Sprout]]></entry>
+	<entry id="str_monster_skill_crystal_polish"><![CDATA[Crystal Polish]]></entry>
+	<entry id="str_monster_skill_crystalline_gaze"><![CDATA[Crystalline Gaze]]></entry>
+	<entry id="str_monster_skill_timewarp_eye"><![CDATA[Timewarp Eye]]></entry>
+	<entry id="str_monster_skill_crystal_harbinger_riposte"><![CDATA[Riposte]]></entry>
+	
+	<!--Roaming Area and Town Event-->
+    <entry id="town_event_title_crystal_harbinger_roaming_regions"><![CDATA[Something emerges beneath the Mill]]></entry>
+	<entry id="town_event_description_crystal_harbinger_roaming_regions"><![CDATA[An crystalline alienage emerges from the farmstead that was created by the comet, roams in the surrounding regions...]]></entry>
+	<entry id="town_event_info_crystal_harbinger_roaming_regions"><![CDATA[The Crystalline Harbinger will now roam the Estate.]]></entry>
+	<entry id="str_roaming_tooltip_crystal_harbinger"><![CDATA[The Crystal Harbinger is lurking in this week!]]></entry>
+	
+	<!--Names of Harbingers-->
+	<entry id="str_monstername_crystal_harbinger_A"><![CDATA[Created Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_B"><![CDATA[Reinforced Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_C"><![CDATA[Sleeper's Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_D"><![CDATA[Crystalline Harbinger]]></entry>
+	
+	<!--Harbinger's Skill Names-->
+	<entry id="str_monster_skill_liquidized_slash"><![CDATA[Liquidated Slash]]></entry>
+	<entry id="str_monster_skill_shell_protection"><![CDATA[Shell Protection]]></entry>
+	<entry id="str_monster_skill_reconstuct_herald"><![CDATA[Reconstruct Sprout]]></entry>
+	<entry id="str_monster_skill_crystal_polish"><![CDATA[Crystal Polish]]></entry>
+	<entry id="str_monster_skill_crystalline_gaze"><![CDATA[Crystalline Gaze]]></entry>
+	<entry id="str_monster_skill_timewarp_eye"><![CDATA[Timewarp Eye]]></entry>
+	<entry id="str_monster_skill_crystal_harbinger_riposte"><![CDATA[Riposte]]></entry>
+	
+	<!--Roaming Area-->
+	<entry id="str_roaming_tooltip_crystal_harbinger"><![CDATA[The Crystal Harbinger is lurking in this week!]]></entry>
+
+	<!--Crystalline Harbinger's Trophy Trinkets with Tooltip-->
+	<entry id="trinket_rarity_crystal_trophy"><![CDATA[Crystalline Trophy]]></entry>
+	<entry id="str_inventory_title_trinketcrystal_oozing_claw"><![CDATA[Crystal Oozing Claw]]></entry>	
+	<entry id="str_inventory_title_trinketcrystalized_eye"><![CDATA[Crystalized Eye]]></entry>
+	<entry id="str_inventory_title_trinketcrystal_infused_shield"><![CDATA[Crystal-Touched Shield]]></entry>
+	<entry id="str_inventory_set_title_crystal_harbinger_trophy_set"><![CDATA[{colour_start|crystal_trophy}"The comet gleams with memerizing light"{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount Received]]></entry>
+	
+	<!--Tooltip Fix-->
+	<entry id="trinket_melee_attack_skill_additional_effects_miss"><![CDATA[On Melee Attack Miss:]]></entry>
+	<entry id="trinket_ranged_attack_skill_additional_effects_miss"><![CDATA[On Ranged Attack Miss:]]></entry>
+
+	<!--Crystalline Harbinger Loading Screen-->
+    <entry id="loading_screen_override_crystal_harbinger"><![CDATA[Beware the Harbinger!]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[It's shells are hard as diamonds, wait for it's defenses to be lowered.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[The Harbinger was created by the comet that struck the Farmstead.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[It's claws oozes with crystal liquid that taint and damages heroes skin.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[Harbinger reconstructs heralds to aid in battle and it polishes them.]]></entry>
+	
+	<!--Crystalline Herald Special Intereaction Barks-->
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Become one of us...{colour_end} No, stay away from me!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Destroy defected...{colour_end} Why would you do this!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Shatter...{colour_end} My shells are breaking apart from this thing!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}The Comet calls...{colour_end} Why am I so afraid all of the sudden...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}Shard gleams...{colour_end} Why is it looking at me like that...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}Dispose crystals...{colour_end} This can't be, it really can't...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Return to shards...{colour_end} I never seen my shells shake like that...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Galaxy amoung stars...{colour_end} Was I really defect this time...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Your future ends...{colour_end} What about my future, what did it mean by that...]]></entry>
+	</language>
+  <language id="french">
+  
+	<!--Names of Harbingers-->
+	<entry id="str_monstername_crystal_harbinger_A"><![CDATA[Created Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_B"><![CDATA[Reinforced Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_C"><![CDATA[Sleeper's Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_D"><![CDATA[Crystalline Harbinger]]></entry>
+	
+	<!--Harbinger's Skill Names-->
+	<entry id="str_monster_skill_liquidized_slash"><![CDATA[Liquidated Slash]]></entry>
+	<entry id="str_monster_skill_shell_protection"><![CDATA[Shell Protection]]></entry>
+	<entry id="str_monster_skill_reconstuct_herald"><![CDATA[Reconstruct Sprout]]></entry>
+	<entry id="str_monster_skill_crystal_polish"><![CDATA[Crystal Polish]]></entry>
+	<entry id="str_monster_skill_crystalline_gaze"><![CDATA[Crystalline Gaze]]></entry>
+	<entry id="str_monster_skill_timewarp_eye"><![CDATA[Timewarp Eye]]></entry>
+	<entry id="str_monster_skill_crystal_harbinger_riposte"><![CDATA[Riposte]]></entry>
+	
+	<!--Roaming Area and Town Event-->
+    <entry id="town_event_title_crystal_harbinger_roaming_regions"><![CDATA[Something emerges beneath the Mill]]></entry>
+	<entry id="town_event_description_crystal_harbinger_roaming_regions"><![CDATA[An crystalline alienage emerges from the farmstead that was created by the comet, roams in the surrounding regions...]]></entry>
+	<entry id="town_event_info_crystal_harbinger_roaming_regions"><![CDATA[The Crystalline Harbinger will now roam the Estate.]]></entry>
+	<entry id="str_roaming_tooltip_crystal_harbinger"><![CDATA[The Crystal Harbinger is lurking in this week!]]></entry>
+	
+	<!--Names of Harbingers-->
+	<entry id="str_monstername_crystal_harbinger_A"><![CDATA[Created Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_B"><![CDATA[Reinforced Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_C"><![CDATA[Sleeper's Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_D"><![CDATA[Crystalline Harbinger]]></entry>
+	
+	<!--Harbinger's Skill Names-->
+	<entry id="str_monster_skill_liquidized_slash"><![CDATA[Liquidated Slash]]></entry>
+	<entry id="str_monster_skill_shell_protection"><![CDATA[Shell Protection]]></entry>
+	<entry id="str_monster_skill_reconstuct_herald"><![CDATA[Reconstruct Sprout]]></entry>
+	<entry id="str_monster_skill_crystal_polish"><![CDATA[Crystal Polish]]></entry>
+	<entry id="str_monster_skill_crystalline_gaze"><![CDATA[Crystalline Gaze]]></entry>
+	<entry id="str_monster_skill_timewarp_eye"><![CDATA[Timewarp Eye]]></entry>
+	<entry id="str_monster_skill_crystal_harbinger_riposte"><![CDATA[Riposte]]></entry>
+	
+	<!--Roaming Area-->
+	<entry id="str_roaming_tooltip_crystal_harbinger"><![CDATA[The Crystal Harbinger is lurking in this week!]]></entry>
+
+	<!--Crystalline Harbinger's Trophy Trinkets with Tooltip-->
+	<entry id="trinket_rarity_crystal_trophy"><![CDATA[Crystalline Trophy]]></entry>
+	<entry id="str_inventory_title_trinketcrystal_oozing_claw"><![CDATA[Crystal Oozing Claw]]></entry>	
+	<entry id="str_inventory_title_trinketcrystalized_eye"><![CDATA[Crystalized Eye]]></entry>
+	<entry id="str_inventory_title_trinketcrystal_infused_shield"><![CDATA[Crystal-Touched Shield]]></entry>
+	<entry id="str_inventory_set_title_crystal_harbinger_trophy_set"><![CDATA[{colour_start|crystal_trophy}"The comet gleams with memerizing light"{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount Received]]></entry>
+	
+	<!--Tooltip Fix-->
+	<entry id="trinket_melee_attack_skill_additional_effects_miss"><![CDATA[On Melee Attack Miss:]]></entry>
+	<entry id="trinket_ranged_attack_skill_additional_effects_miss"><![CDATA[On Ranged Attack Miss:]]></entry>
+
+	<!--Crystalline Harbinger Loading Screen-->
+    <entry id="loading_screen_override_crystal_harbinger"><![CDATA[Beware the Harbinger!]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[It's shells are hard as diamonds, wait for it's defenses to be lowered.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[The Harbinger was created by the comet that struck the Farmstead.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[It's claws oozes with crystal liquid that taint and damages heroes skin.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[Harbinger reconstructs heralds to aid in battle and it polishes them.]]></entry>
+	
+	<!--Crystalline Herald Special Intereaction Barks-->
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Become one of us...{colour_end} No, stay away from me!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Destroy defected...{colour_end} Why would you do this!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Shatter...{colour_end} My shells are breaking apart from this thing!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}The Comet calls...{colour_end} Why am I so afraid all of the sudden...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}Shard gleams...{colour_end} Why is it looking at me like that...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}Dispose crystals...{colour_end} This can't be, it really can't...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Return to shards...{colour_end} I never seen my shells shake like that...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Galaxy amoung stars...{colour_end} Was I really defect this time...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Your future ends...{colour_end} What about my future, what did it mean by that...]]></entry>
+	</language>
+  <language id="german">
+  
+	<!--Names of Harbingers-->
+	<entry id="str_monstername_crystal_harbinger_A"><![CDATA[Created Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_B"><![CDATA[Reinforced Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_C"><![CDATA[Sleeper's Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_D"><![CDATA[Crystalline Harbinger]]></entry>
+	
+	<!--Harbinger's Skill Names-->
+	<entry id="str_monster_skill_liquidized_slash"><![CDATA[Liquidated Slash]]></entry>
+	<entry id="str_monster_skill_shell_protection"><![CDATA[Shell Protection]]></entry>
+	<entry id="str_monster_skill_reconstuct_herald"><![CDATA[Reconstruct Sprout]]></entry>
+	<entry id="str_monster_skill_crystal_polish"><![CDATA[Crystal Polish]]></entry>
+	<entry id="str_monster_skill_crystalline_gaze"><![CDATA[Crystalline Gaze]]></entry>
+	<entry id="str_monster_skill_timewarp_eye"><![CDATA[Timewarp Eye]]></entry>
+	<entry id="str_monster_skill_crystal_harbinger_riposte"><![CDATA[Riposte]]></entry>
+	
+	<!--Roaming Area and Town Event-->
+    <entry id="town_event_title_crystal_harbinger_roaming_regions"><![CDATA[Something emerges beneath the Mill]]></entry>
+	<entry id="town_event_description_crystal_harbinger_roaming_regions"><![CDATA[An crystalline alienage emerges from the farmstead that was created by the comet, roams in the surrounding regions...]]></entry>
+	<entry id="town_event_info_crystal_harbinger_roaming_regions"><![CDATA[The Crystalline Harbinger will now roam the Estate.]]></entry>
+	<entry id="str_roaming_tooltip_crystal_harbinger"><![CDATA[The Crystal Harbinger is lurking in this week!]]></entry>
+	
+	<!--Names of Harbingers-->
+	<entry id="str_monstername_crystal_harbinger_A"><![CDATA[Created Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_B"><![CDATA[Reinforced Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_C"><![CDATA[Sleeper's Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_D"><![CDATA[Crystalline Harbinger]]></entry>
+	
+	<!--Harbinger's Skill Names-->
+	<entry id="str_monster_skill_liquidized_slash"><![CDATA[Liquidated Slash]]></entry>
+	<entry id="str_monster_skill_shell_protection"><![CDATA[Shell Protection]]></entry>
+	<entry id="str_monster_skill_reconstuct_herald"><![CDATA[Reconstruct Sprout]]></entry>
+	<entry id="str_monster_skill_crystal_polish"><![CDATA[Crystal Polish]]></entry>
+	<entry id="str_monster_skill_crystalline_gaze"><![CDATA[Crystalline Gaze]]></entry>
+	<entry id="str_monster_skill_timewarp_eye"><![CDATA[Timewarp Eye]]></entry>
+	<entry id="str_monster_skill_crystal_harbinger_riposte"><![CDATA[Riposte]]></entry>
+	
+	<!--Roaming Area-->
+	<entry id="str_roaming_tooltip_crystal_harbinger"><![CDATA[The Crystal Harbinger is lurking in this week!]]></entry>
+
+	<!--Crystalline Harbinger's Trophy Trinkets with Tooltip-->
+	<entry id="trinket_rarity_crystal_trophy"><![CDATA[Crystalline Trophy]]></entry>
+	<entry id="str_inventory_title_trinketcrystal_oozing_claw"><![CDATA[Crystal Oozing Claw]]></entry>	
+	<entry id="str_inventory_title_trinketcrystalized_eye"><![CDATA[Crystalized Eye]]></entry>
+	<entry id="str_inventory_title_trinketcrystal_infused_shield"><![CDATA[Crystal-Touched Shield]]></entry>
+	<entry id="str_inventory_set_title_crystal_harbinger_trophy_set"><![CDATA[{colour_start|crystal_trophy}"The comet gleams with memerizing light"{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount Received]]></entry>
+	
+	<!--Tooltip Fix-->
+	<entry id="trinket_melee_attack_skill_additional_effects_miss"><![CDATA[On Melee Attack Miss:]]></entry>
+	<entry id="trinket_ranged_attack_skill_additional_effects_miss"><![CDATA[On Ranged Attack Miss:]]></entry>
+
+	<!--Crystalline Harbinger Loading Screen-->
+    <entry id="loading_screen_override_crystal_harbinger"><![CDATA[Beware the Harbinger!]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[It's shells are hard as diamonds, wait for it's defenses to be lowered.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[The Harbinger was created by the comet that struck the Farmstead.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[It's claws oozes with crystal liquid that taint and damages heroes skin.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[Harbinger reconstructs heralds to aid in battle and it polishes them.]]></entry>
+	
+	<!--Crystalline Herald Special Intereaction Barks-->
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Become one of us...{colour_end} No, stay away from me!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Destroy defected...{colour_end} Why would you do this!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Shatter...{colour_end} My shells are breaking apart from this thing!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}The Comet calls...{colour_end} Why am I so afraid all of the sudden...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}Shard gleams...{colour_end} Why is it looking at me like that...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}Dispose crystals...{colour_end} This can't be, it really can't...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Return to shards...{colour_end} I never seen my shells shake like that...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Galaxy amoung stars...{colour_end} Was I really defect this time...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Your future ends...{colour_end} What about my future, what did it mean by that...]]></entry>
+	</language>
+  <language id="spanish">
+  
+	<!--Names of Harbingers-->
+	<entry id="str_monstername_crystal_harbinger_A"><![CDATA[Created Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_B"><![CDATA[Reinforced Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_C"><![CDATA[Sleeper's Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_D"><![CDATA[Crystalline Harbinger]]></entry>
+	
+	<!--Harbinger's Skill Names-->
+	<entry id="str_monster_skill_liquidized_slash"><![CDATA[Liquidated Slash]]></entry>
+	<entry id="str_monster_skill_shell_protection"><![CDATA[Shell Protection]]></entry>
+	<entry id="str_monster_skill_reconstuct_herald"><![CDATA[Reconstruct Sprout]]></entry>
+	<entry id="str_monster_skill_crystal_polish"><![CDATA[Crystal Polish]]></entry>
+	<entry id="str_monster_skill_crystalline_gaze"><![CDATA[Crystalline Gaze]]></entry>
+	<entry id="str_monster_skill_timewarp_eye"><![CDATA[Timewarp Eye]]></entry>
+	<entry id="str_monster_skill_crystal_harbinger_riposte"><![CDATA[Riposte]]></entry>
+	
+	<!--Roaming Area and Town Event-->
+    <entry id="town_event_title_crystal_harbinger_roaming_regions"><![CDATA[Something emerges beneath the Mill]]></entry>
+	<entry id="town_event_description_crystal_harbinger_roaming_regions"><![CDATA[An crystalline alienage emerges from the farmstead that was created by the comet, roams in the surrounding regions...]]></entry>
+	<entry id="town_event_info_crystal_harbinger_roaming_regions"><![CDATA[The Crystalline Harbinger will now roam the Estate.]]></entry>
+	<entry id="str_roaming_tooltip_crystal_harbinger"><![CDATA[The Crystal Harbinger is lurking in this week!]]></entry>
+	
+	<!--Names of Harbingers-->
+	<entry id="str_monstername_crystal_harbinger_A"><![CDATA[Created Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_B"><![CDATA[Reinforced Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_C"><![CDATA[Sleeper's Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_D"><![CDATA[Crystalline Harbinger]]></entry>
+	
+	<!--Harbinger's Skill Names-->
+	<entry id="str_monster_skill_liquidized_slash"><![CDATA[Liquidated Slash]]></entry>
+	<entry id="str_monster_skill_shell_protection"><![CDATA[Shell Protection]]></entry>
+	<entry id="str_monster_skill_reconstuct_herald"><![CDATA[Reconstruct Sprout]]></entry>
+	<entry id="str_monster_skill_crystal_polish"><![CDATA[Crystal Polish]]></entry>
+	<entry id="str_monster_skill_crystalline_gaze"><![CDATA[Crystalline Gaze]]></entry>
+	<entry id="str_monster_skill_timewarp_eye"><![CDATA[Timewarp Eye]]></entry>
+	<entry id="str_monster_skill_crystal_harbinger_riposte"><![CDATA[Riposte]]></entry>
+	
+	<!--Roaming Area-->
+	<entry id="str_roaming_tooltip_crystal_harbinger"><![CDATA[The Crystal Harbinger is lurking in this week!]]></entry>
+
+	<!--Crystalline Harbinger's Trophy Trinkets with Tooltip-->
+	<entry id="trinket_rarity_crystal_trophy"><![CDATA[Crystalline Trophy]]></entry>
+	<entry id="str_inventory_title_trinketcrystal_oozing_claw"><![CDATA[Crystal Oozing Claw]]></entry>	
+	<entry id="str_inventory_title_trinketcrystalized_eye"><![CDATA[Crystalized Eye]]></entry>
+	<entry id="str_inventory_title_trinketcrystal_infused_shield"><![CDATA[Crystal-Touched Shield]]></entry>
+	<entry id="str_inventory_set_title_crystal_harbinger_trophy_set"><![CDATA[{colour_start|crystal_trophy}"The comet gleams with memerizing light"{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount Received]]></entry>
+	
+	<!--Tooltip Fix-->
+	<entry id="trinket_melee_attack_skill_additional_effects_miss"><![CDATA[On Melee Attack Miss:]]></entry>
+	<entry id="trinket_ranged_attack_skill_additional_effects_miss"><![CDATA[On Ranged Attack Miss:]]></entry>
+
+	<!--Crystalline Harbinger Loading Screen-->
+    <entry id="loading_screen_override_crystal_harbinger"><![CDATA[Beware the Harbinger!]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[It's shells are hard as diamonds, wait for it's defenses to be lowered.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[The Harbinger was created by the comet that struck the Farmstead.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[It's claws oozes with crystal liquid that taint and damages heroes skin.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[Harbinger reconstructs heralds to aid in battle and it polishes them.]]></entry>
+	
+	<!--Crystalline Herald Special Intereaction Barks-->
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Become one of us...{colour_end} No, stay away from me!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Destroy defected...{colour_end} Why would you do this!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Shatter...{colour_end} My shells are breaking apart from this thing!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}The Comet calls...{colour_end} Why am I so afraid all of the sudden...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}Shard gleams...{colour_end} Why is it looking at me like that...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}Dispose crystals...{colour_end} This can't be, it really can't...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Return to shards...{colour_end} I never seen my shells shake like that...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Galaxy amoung stars...{colour_end} Was I really defect this time...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Your future ends...{colour_end} What about my future, what did it mean by that...]]></entry>
+	</language>
+  <language id="brazilian">
+  
+	<!--Names of Harbingers-->
+	<entry id="str_monstername_crystal_harbinger_A"><![CDATA[Created Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_B"><![CDATA[Reinforced Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_C"><![CDATA[Sleeper's Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_D"><![CDATA[Crystalline Harbinger]]></entry>
+	
+	<!--Harbinger's Skill Names-->
+	<entry id="str_monster_skill_liquidized_slash"><![CDATA[Liquidated Slash]]></entry>
+	<entry id="str_monster_skill_shell_protection"><![CDATA[Shell Protection]]></entry>
+	<entry id="str_monster_skill_reconstuct_herald"><![CDATA[Reconstruct Sprout]]></entry>
+	<entry id="str_monster_skill_crystal_polish"><![CDATA[Crystal Polish]]></entry>
+	<entry id="str_monster_skill_crystalline_gaze"><![CDATA[Crystalline Gaze]]></entry>
+	<entry id="str_monster_skill_timewarp_eye"><![CDATA[Timewarp Eye]]></entry>
+	<entry id="str_monster_skill_crystal_harbinger_riposte"><![CDATA[Riposte]]></entry>
+	
+	<!--Roaming Area and Town Event-->
+    <entry id="town_event_title_crystal_harbinger_roaming_regions"><![CDATA[Something emerges beneath the Mill]]></entry>
+	<entry id="town_event_description_crystal_harbinger_roaming_regions"><![CDATA[An crystalline alienage emerges from the farmstead that was created by the comet, roams in the surrounding regions...]]></entry>
+	<entry id="town_event_info_crystal_harbinger_roaming_regions"><![CDATA[The Crystalline Harbinger will now roam the Estate.]]></entry>
+	<entry id="str_roaming_tooltip_crystal_harbinger"><![CDATA[The Crystal Harbinger is lurking in this week!]]></entry>
+	
+	<!--Names of Harbingers-->
+	<entry id="str_monstername_crystal_harbinger_A"><![CDATA[Created Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_B"><![CDATA[Reinforced Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_C"><![CDATA[Sleeper's Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_D"><![CDATA[Crystalline Harbinger]]></entry>
+	
+	<!--Harbinger's Skill Names-->
+	<entry id="str_monster_skill_liquidized_slash"><![CDATA[Liquidated Slash]]></entry>
+	<entry id="str_monster_skill_shell_protection"><![CDATA[Shell Protection]]></entry>
+	<entry id="str_monster_skill_reconstuct_herald"><![CDATA[Reconstruct Sprout]]></entry>
+	<entry id="str_monster_skill_crystal_polish"><![CDATA[Crystal Polish]]></entry>
+	<entry id="str_monster_skill_crystalline_gaze"><![CDATA[Crystalline Gaze]]></entry>
+	<entry id="str_monster_skill_timewarp_eye"><![CDATA[Timewarp Eye]]></entry>
+	<entry id="str_monster_skill_crystal_harbinger_riposte"><![CDATA[Riposte]]></entry>
+	
+	<!--Roaming Area-->
+	<entry id="str_roaming_tooltip_crystal_harbinger"><![CDATA[The Crystal Harbinger is lurking in this week!]]></entry>
+
+	<!--Crystalline Harbinger's Trophy Trinkets with Tooltip-->
+	<entry id="trinket_rarity_crystal_trophy"><![CDATA[Crystalline Trophy]]></entry>
+	<entry id="str_inventory_title_trinketcrystal_oozing_claw"><![CDATA[Crystal Oozing Claw]]></entry>	
+	<entry id="str_inventory_title_trinketcrystalized_eye"><![CDATA[Crystalized Eye]]></entry>
+	<entry id="str_inventory_title_trinketcrystal_infused_shield"><![CDATA[Crystal-Touched Shield]]></entry>
+	<entry id="str_inventory_set_title_crystal_harbinger_trophy_set"><![CDATA[{colour_start|crystal_trophy}"The comet gleams with memerizing light"{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount Received]]></entry>
+	
+	<!--Tooltip Fix-->
+	<entry id="trinket_melee_attack_skill_additional_effects_miss"><![CDATA[On Melee Attack Miss:]]></entry>
+	<entry id="trinket_ranged_attack_skill_additional_effects_miss"><![CDATA[On Ranged Attack Miss:]]></entry>
+
+	<!--Crystalline Harbinger Loading Screen-->
+    <entry id="loading_screen_override_crystal_harbinger"><![CDATA[Beware the Harbinger!]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[It's shells are hard as diamonds, wait for it's defenses to be lowered.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[The Harbinger was created by the comet that struck the Farmstead.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[It's claws oozes with crystal liquid that taint and damages heroes skin.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[Harbinger reconstructs heralds to aid in battle and it polishes them.]]></entry>
+	
+	<!--Crystalline Herald Special Intereaction Barks-->
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Become one of us...{colour_end} No, stay away from me!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Destroy defected...{colour_end} Why would you do this!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Shatter...{colour_end} My shells are breaking apart from this thing!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}The Comet calls...{colour_end} Why am I so afraid all of the sudden...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}Shard gleams...{colour_end} Why is it looking at me like that...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}Dispose crystals...{colour_end} This can't be, it really can't...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Return to shards...{colour_end} I never seen my shells shake like that...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Galaxy amoung stars...{colour_end} Was I really defect this time...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Your future ends...{colour_end} What about my future, what did it mean by that...]]></entry>
+	</language>
+  <language id="russian">
+  
+	<!--Names of Harbingers-->
+	<entry id="str_monstername_crystal_harbinger_A"><![CDATA[Created Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_B"><![CDATA[Reinforced Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_C"><![CDATA[Sleeper's Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_D"><![CDATA[Crystalline Harbinger]]></entry>
+	
+	<!--Harbinger's Skill Names-->
+	<entry id="str_monster_skill_liquidized_slash"><![CDATA[Liquidated Slash]]></entry>
+	<entry id="str_monster_skill_shell_protection"><![CDATA[Shell Protection]]></entry>
+	<entry id="str_monster_skill_reconstuct_herald"><![CDATA[Reconstruct Sprout]]></entry>
+	<entry id="str_monster_skill_crystal_polish"><![CDATA[Crystal Polish]]></entry>
+	<entry id="str_monster_skill_crystalline_gaze"><![CDATA[Crystalline Gaze]]></entry>
+	<entry id="str_monster_skill_timewarp_eye"><![CDATA[Timewarp Eye]]></entry>
+	<entry id="str_monster_skill_crystal_harbinger_riposte"><![CDATA[Riposte]]></entry>
+	
+	<!--Roaming Area and Town Event-->
+    <entry id="town_event_title_crystal_harbinger_roaming_regions"><![CDATA[Something emerges beneath the Mill]]></entry>
+	<entry id="town_event_description_crystal_harbinger_roaming_regions"><![CDATA[An crystalline alienage emerges from the farmstead that was created by the comet, roams in the surrounding regions...]]></entry>
+	<entry id="town_event_info_crystal_harbinger_roaming_regions"><![CDATA[The Crystalline Harbinger will now roam the Estate.]]></entry>
+	<entry id="str_roaming_tooltip_crystal_harbinger"><![CDATA[The Crystal Harbinger is lurking in this week!]]></entry>
+	
+	<!--Names of Harbingers-->
+	<entry id="str_monstername_crystal_harbinger_A"><![CDATA[Created Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_B"><![CDATA[Reinforced Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_C"><![CDATA[Sleeper's Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_D"><![CDATA[Crystalline Harbinger]]></entry>
+	
+	<!--Harbinger's Skill Names-->
+	<entry id="str_monster_skill_liquidized_slash"><![CDATA[Liquidated Slash]]></entry>
+	<entry id="str_monster_skill_shell_protection"><![CDATA[Shell Protection]]></entry>
+	<entry id="str_monster_skill_reconstuct_herald"><![CDATA[Reconstruct Sprout]]></entry>
+	<entry id="str_monster_skill_crystal_polish"><![CDATA[Crystal Polish]]></entry>
+	<entry id="str_monster_skill_crystalline_gaze"><![CDATA[Crystalline Gaze]]></entry>
+	<entry id="str_monster_skill_timewarp_eye"><![CDATA[Timewarp Eye]]></entry>
+	<entry id="str_monster_skill_crystal_harbinger_riposte"><![CDATA[Riposte]]></entry>
+	
+	<!--Roaming Area-->
+	<entry id="str_roaming_tooltip_crystal_harbinger"><![CDATA[The Crystal Harbinger is lurking in this week!]]></entry>
+
+	<!--Crystalline Harbinger's Trophy Trinkets with Tooltip-->
+	<entry id="trinket_rarity_crystal_trophy"><![CDATA[Crystalline Trophy]]></entry>
+	<entry id="str_inventory_title_trinketcrystal_oozing_claw"><![CDATA[Crystal Oozing Claw]]></entry>	
+	<entry id="str_inventory_title_trinketcrystalized_eye"><![CDATA[Crystalized Eye]]></entry>
+	<entry id="str_inventory_title_trinketcrystal_infused_shield"><![CDATA[Crystal-Touched Shield]]></entry>
+	<entry id="str_inventory_set_title_crystal_harbinger_trophy_set"><![CDATA[{colour_start|crystal_trophy}"The comet gleams with memerizing light"{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount Received]]></entry>
+	
+	<!--Tooltip Fix-->
+	<entry id="trinket_melee_attack_skill_additional_effects_miss"><![CDATA[On Melee Attack Miss:]]></entry>
+	<entry id="trinket_ranged_attack_skill_additional_effects_miss"><![CDATA[On Ranged Attack Miss:]]></entry>
+
+	<!--Crystalline Harbinger Loading Screen-->
+    <entry id="loading_screen_override_crystal_harbinger"><![CDATA[Beware the Harbinger!]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[It's shells are hard as diamonds, wait for it's defenses to be lowered.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[The Harbinger was created by the comet that struck the Farmstead.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[It's claws oozes with crystal liquid that taint and damages heroes skin.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[Harbinger reconstructs heralds to aid in battle and it polishes them.]]></entry>
+	
+	<!--Crystalline Herald Special Intereaction Barks-->
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Become one of us...{colour_end} No, stay away from me!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Destroy defected...{colour_end} Why would you do this!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Shatter...{colour_end} My shells are breaking apart from this thing!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}The Comet calls...{colour_end} Why am I so afraid all of the sudden...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}Shard gleams...{colour_end} Why is it looking at me like that...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}Dispose crystals...{colour_end} This can't be, it really can't...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Return to shards...{colour_end} I never seen my shells shake like that...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Galaxy amoung stars...{colour_end} Was I really defect this time...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Your future ends...{colour_end} What about my future, what did it mean by that...]]></entry>
+	</language>
+  <language id="polish">
+  
+	<!--Names of Harbingers-->
+	<entry id="str_monstername_crystal_harbinger_A"><![CDATA[Created Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_B"><![CDATA[Reinforced Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_C"><![CDATA[Sleeper's Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_D"><![CDATA[Crystalline Harbinger]]></entry>
+	
+	<!--Harbinger's Skill Names-->
+	<entry id="str_monster_skill_liquidized_slash"><![CDATA[Liquidated Slash]]></entry>
+	<entry id="str_monster_skill_shell_protection"><![CDATA[Shell Protection]]></entry>
+	<entry id="str_monster_skill_reconstuct_herald"><![CDATA[Reconstruct Sprout]]></entry>
+	<entry id="str_monster_skill_crystal_polish"><![CDATA[Crystal Polish]]></entry>
+	<entry id="str_monster_skill_crystalline_gaze"><![CDATA[Crystalline Gaze]]></entry>
+	<entry id="str_monster_skill_timewarp_eye"><![CDATA[Timewarp Eye]]></entry>
+	<entry id="str_monster_skill_crystal_harbinger_riposte"><![CDATA[Riposte]]></entry>
+	
+	<!--Roaming Area and Town Event-->
+    <entry id="town_event_title_crystal_harbinger_roaming_regions"><![CDATA[Something emerges beneath the Mill]]></entry>
+	<entry id="town_event_description_crystal_harbinger_roaming_regions"><![CDATA[An crystalline alienage emerges from the farmstead that was created by the comet, roams in the surrounding regions...]]></entry>
+	<entry id="town_event_info_crystal_harbinger_roaming_regions"><![CDATA[The Crystalline Harbinger will now roam the Estate.]]></entry>
+	<entry id="str_roaming_tooltip_crystal_harbinger"><![CDATA[The Crystal Harbinger is lurking in this week!]]></entry>
+	
+	<!--Names of Harbingers-->
+	<entry id="str_monstername_crystal_harbinger_A"><![CDATA[Created Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_B"><![CDATA[Reinforced Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_C"><![CDATA[Sleeper's Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_D"><![CDATA[Crystalline Harbinger]]></entry>
+	
+	<!--Harbinger's Skill Names-->
+	<entry id="str_monster_skill_liquidized_slash"><![CDATA[Liquidated Slash]]></entry>
+	<entry id="str_monster_skill_shell_protection"><![CDATA[Shell Protection]]></entry>
+	<entry id="str_monster_skill_reconstuct_herald"><![CDATA[Reconstruct Sprout]]></entry>
+	<entry id="str_monster_skill_crystal_polish"><![CDATA[Crystal Polish]]></entry>
+	<entry id="str_monster_skill_crystalline_gaze"><![CDATA[Crystalline Gaze]]></entry>
+	<entry id="str_monster_skill_timewarp_eye"><![CDATA[Timewarp Eye]]></entry>
+	<entry id="str_monster_skill_crystal_harbinger_riposte"><![CDATA[Riposte]]></entry>
+	
+	<!--Roaming Area-->
+	<entry id="str_roaming_tooltip_crystal_harbinger"><![CDATA[The Crystal Harbinger is lurking in this week!]]></entry>
+
+	<!--Crystalline Harbinger's Trophy Trinkets with Tooltip-->
+	<entry id="trinket_rarity_crystal_trophy"><![CDATA[Crystalline Trophy]]></entry>
+	<entry id="str_inventory_title_trinketcrystal_oozing_claw"><![CDATA[Crystal Oozing Claw]]></entry>	
+	<entry id="str_inventory_title_trinketcrystalized_eye"><![CDATA[Crystalized Eye]]></entry>
+	<entry id="str_inventory_title_trinketcrystal_infused_shield"><![CDATA[Crystal-Touched Shield]]></entry>
+	<entry id="str_inventory_set_title_crystal_harbinger_trophy_set"><![CDATA[{colour_start|crystal_trophy}"The comet gleams with memerizing light"{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount Received]]></entry>
+	
+	<!--Tooltip Fix-->
+	<entry id="trinket_melee_attack_skill_additional_effects_miss"><![CDATA[On Melee Attack Miss:]]></entry>
+	<entry id="trinket_ranged_attack_skill_additional_effects_miss"><![CDATA[On Ranged Attack Miss:]]></entry>
+
+	<!--Crystalline Harbinger Loading Screen-->
+    <entry id="loading_screen_override_crystal_harbinger"><![CDATA[Beware the Harbinger!]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[It's shells are hard as diamonds, wait for it's defenses to be lowered.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[The Harbinger was created by the comet that struck the Farmstead.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[It's claws oozes with crystal liquid that taint and damages heroes skin.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[Harbinger reconstructs heralds to aid in battle and it polishes them.]]></entry>
+	
+	<!--Crystalline Herald Special Intereaction Barks-->
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Become one of us...{colour_end} No, stay away from me!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Destroy defected...{colour_end} Why would you do this!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Shatter...{colour_end} My shells are breaking apart from this thing!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}The Comet calls...{colour_end} Why am I so afraid all of the sudden...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}Shard gleams...{colour_end} Why is it looking at me like that...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}Dispose crystals...{colour_end} This can't be, it really can't...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Return to shards...{colour_end} I never seen my shells shake like that...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Galaxy amoung stars...{colour_end} Was I really defect this time...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Your future ends...{colour_end} What about my future, what did it mean by that...]]></entry>
+	</language>
+  <language id="czech">
+  
+	<!--Names of Harbingers-->
+	<entry id="str_monstername_crystal_harbinger_A"><![CDATA[Created Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_B"><![CDATA[Reinforced Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_C"><![CDATA[Sleeper's Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_D"><![CDATA[Crystalline Harbinger]]></entry>
+	
+	<!--Harbinger's Skill Names-->
+	<entry id="str_monster_skill_liquidized_slash"><![CDATA[Liquidated Slash]]></entry>
+	<entry id="str_monster_skill_shell_protection"><![CDATA[Shell Protection]]></entry>
+	<entry id="str_monster_skill_reconstuct_herald"><![CDATA[Reconstruct Sprout]]></entry>
+	<entry id="str_monster_skill_crystal_polish"><![CDATA[Crystal Polish]]></entry>
+	<entry id="str_monster_skill_crystalline_gaze"><![CDATA[Crystalline Gaze]]></entry>
+	<entry id="str_monster_skill_timewarp_eye"><![CDATA[Timewarp Eye]]></entry>
+	<entry id="str_monster_skill_crystal_harbinger_riposte"><![CDATA[Riposte]]></entry>
+	
+	<!--Roaming Area and Town Event-->
+    <entry id="town_event_title_crystal_harbinger_roaming_regions"><![CDATA[Something emerges beneath the Mill]]></entry>
+	<entry id="town_event_description_crystal_harbinger_roaming_regions"><![CDATA[An crystalline alienage emerges from the farmstead that was created by the comet, roams in the surrounding regions...]]></entry>
+	<entry id="town_event_info_crystal_harbinger_roaming_regions"><![CDATA[The Crystalline Harbinger will now roam the Estate.]]></entry>
+	<entry id="str_roaming_tooltip_crystal_harbinger"><![CDATA[The Crystal Harbinger is lurking in this week!]]></entry>
+	
+	<!--Names of Harbingers-->
+	<entry id="str_monstername_crystal_harbinger_A"><![CDATA[Created Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_B"><![CDATA[Reinforced Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_C"><![CDATA[Sleeper's Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_D"><![CDATA[Crystalline Harbinger]]></entry>
+	
+	<!--Harbinger's Skill Names-->
+	<entry id="str_monster_skill_liquidized_slash"><![CDATA[Liquidated Slash]]></entry>
+	<entry id="str_monster_skill_shell_protection"><![CDATA[Shell Protection]]></entry>
+	<entry id="str_monster_skill_reconstuct_herald"><![CDATA[Reconstruct Sprout]]></entry>
+	<entry id="str_monster_skill_crystal_polish"><![CDATA[Crystal Polish]]></entry>
+	<entry id="str_monster_skill_crystalline_gaze"><![CDATA[Crystalline Gaze]]></entry>
+	<entry id="str_monster_skill_timewarp_eye"><![CDATA[Timewarp Eye]]></entry>
+	<entry id="str_monster_skill_crystal_harbinger_riposte"><![CDATA[Riposte]]></entry>
+	
+	<!--Roaming Area-->
+	<entry id="str_roaming_tooltip_crystal_harbinger"><![CDATA[The Crystal Harbinger is lurking in this week!]]></entry>
+
+	<!--Crystalline Harbinger's Trophy Trinkets with Tooltip-->
+	<entry id="trinket_rarity_crystal_trophy"><![CDATA[Crystalline Trophy]]></entry>
+	<entry id="str_inventory_title_trinketcrystal_oozing_claw"><![CDATA[Crystal Oozing Claw]]></entry>	
+	<entry id="str_inventory_title_trinketcrystalized_eye"><![CDATA[Crystalized Eye]]></entry>
+	<entry id="str_inventory_title_trinketcrystal_infused_shield"><![CDATA[Crystal-Touched Shield]]></entry>
+	<entry id="str_inventory_set_title_crystal_harbinger_trophy_set"><![CDATA[{colour_start|crystal_trophy}"The comet gleams with memerizing light"{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount Received]]></entry>
+	
+	<!--Tooltip Fix-->
+	<entry id="trinket_melee_attack_skill_additional_effects_miss"><![CDATA[On Melee Attack Miss:]]></entry>
+	<entry id="trinket_ranged_attack_skill_additional_effects_miss"><![CDATA[On Ranged Attack Miss:]]></entry>
+
+	<!--Crystalline Harbinger Loading Screen-->
+    <entry id="loading_screen_override_crystal_harbinger"><![CDATA[Beware the Harbinger!]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[It's shells are hard as diamonds, wait for it's defenses to be lowered.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[The Harbinger was created by the comet that struck the Farmstead.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[It's claws oozes with crystal liquid that taint and damages heroes skin.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[Harbinger reconstructs heralds to aid in battle and it polishes them.]]></entry>
+	
+	<!--Crystalline Herald Special Intereaction Barks-->
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Become one of us...{colour_end} No, stay away from me!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Destroy defected...{colour_end} Why would you do this!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Shatter...{colour_end} My shells are breaking apart from this thing!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}The Comet calls...{colour_end} Why am I so afraid all of the sudden...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}Shard gleams...{colour_end} Why is it looking at me like that...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}Dispose crystals...{colour_end} This can't be, it really can't...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Return to shards...{colour_end} I never seen my shells shake like that...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Galaxy amoung stars...{colour_end} Was I really defect this time...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Your future ends...{colour_end} What about my future, what did it mean by that...]]></entry>
+	</language>
+  <language id="italian">
+  
+	<!--Names of Harbingers-->
+	<entry id="str_monstername_crystal_harbinger_A"><![CDATA[Created Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_B"><![CDATA[Reinforced Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_C"><![CDATA[Sleeper's Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_D"><![CDATA[Crystalline Harbinger]]></entry>
+	
+	<!--Harbinger's Skill Names-->
+	<entry id="str_monster_skill_liquidized_slash"><![CDATA[Liquidated Slash]]></entry>
+	<entry id="str_monster_skill_shell_protection"><![CDATA[Shell Protection]]></entry>
+	<entry id="str_monster_skill_reconstuct_herald"><![CDATA[Reconstruct Sprout]]></entry>
+	<entry id="str_monster_skill_crystal_polish"><![CDATA[Crystal Polish]]></entry>
+	<entry id="str_monster_skill_crystalline_gaze"><![CDATA[Crystalline Gaze]]></entry>
+	<entry id="str_monster_skill_timewarp_eye"><![CDATA[Timewarp Eye]]></entry>
+	<entry id="str_monster_skill_crystal_harbinger_riposte"><![CDATA[Riposte]]></entry>
+	
+	<!--Roaming Area and Town Event-->
+    <entry id="town_event_title_crystal_harbinger_roaming_regions"><![CDATA[Something emerges beneath the Mill]]></entry>
+	<entry id="town_event_description_crystal_harbinger_roaming_regions"><![CDATA[An crystalline alienage emerges from the farmstead that was created by the comet, roams in the surrounding regions...]]></entry>
+	<entry id="town_event_info_crystal_harbinger_roaming_regions"><![CDATA[The Crystalline Harbinger will now roam the Estate.]]></entry>
+	<entry id="str_roaming_tooltip_crystal_harbinger"><![CDATA[The Crystal Harbinger is lurking in this week!]]></entry>
+	
+	<!--Names of Harbingers-->
+	<entry id="str_monstername_crystal_harbinger_A"><![CDATA[Created Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_B"><![CDATA[Reinforced Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_C"><![CDATA[Sleeper's Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_D"><![CDATA[Crystalline Harbinger]]></entry>
+	
+	<!--Harbinger's Skill Names-->
+	<entry id="str_monster_skill_liquidized_slash"><![CDATA[Liquidated Slash]]></entry>
+	<entry id="str_monster_skill_shell_protection"><![CDATA[Shell Protection]]></entry>
+	<entry id="str_monster_skill_reconstuct_herald"><![CDATA[Reconstruct Sprout]]></entry>
+	<entry id="str_monster_skill_crystal_polish"><![CDATA[Crystal Polish]]></entry>
+	<entry id="str_monster_skill_crystalline_gaze"><![CDATA[Crystalline Gaze]]></entry>
+	<entry id="str_monster_skill_timewarp_eye"><![CDATA[Timewarp Eye]]></entry>
+	<entry id="str_monster_skill_crystal_harbinger_riposte"><![CDATA[Riposte]]></entry>
+	
+	<!--Roaming Area-->
+	<entry id="str_roaming_tooltip_crystal_harbinger"><![CDATA[The Crystal Harbinger is lurking in this week!]]></entry>
+
+	<!--Crystalline Harbinger's Trophy Trinkets with Tooltip-->
+	<entry id="trinket_rarity_crystal_trophy"><![CDATA[Crystalline Trophy]]></entry>
+	<entry id="str_inventory_title_trinketcrystal_oozing_claw"><![CDATA[Crystal Oozing Claw]]></entry>	
+	<entry id="str_inventory_title_trinketcrystalized_eye"><![CDATA[Crystalized Eye]]></entry>
+	<entry id="str_inventory_title_trinketcrystal_infused_shield"><![CDATA[Crystal-Touched Shield]]></entry>
+	<entry id="str_inventory_set_title_crystal_harbinger_trophy_set"><![CDATA[{colour_start|crystal_trophy}"The comet gleams with memerizing light"{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount Received]]></entry>
+	
+	<!--Tooltip Fix-->
+	<entry id="trinket_melee_attack_skill_additional_effects_miss"><![CDATA[On Melee Attack Miss:]]></entry>
+	<entry id="trinket_ranged_attack_skill_additional_effects_miss"><![CDATA[On Ranged Attack Miss:]]></entry>
+
+	<!--Crystalline Harbinger Loading Screen-->
+    <entry id="loading_screen_override_crystal_harbinger"><![CDATA[Beware the Harbinger!]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[It's shells are hard as diamonds, wait for it's defenses to be lowered.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[The Harbinger was created by the comet that struck the Farmstead.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[It's claws oozes with crystal liquid that taint and damages heroes skin.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[Harbinger reconstructs heralds to aid in battle and it polishes them.]]></entry>
+	
+	<!--Crystalline Herald Special Intereaction Barks-->
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Become one of us...{colour_end} No, stay away from me!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Destroy defected...{colour_end} Why would you do this!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Shatter...{colour_end} My shells are breaking apart from this thing!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}The Comet calls...{colour_end} Why am I so afraid all of the sudden...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}Shard gleams...{colour_end} Why is it looking at me like that...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}Dispose crystals...{colour_end} This can't be, it really can't...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Return to shards...{colour_end} I never seen my shells shake like that...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Galaxy amoung stars...{colour_end} Was I really defect this time...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Your future ends...{colour_end} What about my future, what did it mean by that...]]></entry>
+	</language>
+  <language id="schinese">
+  
+	<!--Names of Harbingers-->
+	<entry id="str_monstername_crystal_harbinger_A"><![CDATA[Created Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_B"><![CDATA[Reinforced Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_C"><![CDATA[Sleeper's Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_D"><![CDATA[Crystalline Harbinger]]></entry>
+	
+	<!--Harbinger's Skill Names-->
+	<entry id="str_monster_skill_liquidized_slash"><![CDATA[Liquidated Slash]]></entry>
+	<entry id="str_monster_skill_shell_protection"><![CDATA[Shell Protection]]></entry>
+	<entry id="str_monster_skill_reconstuct_herald"><![CDATA[Reconstruct Sprout]]></entry>
+	<entry id="str_monster_skill_crystal_polish"><![CDATA[Crystal Polish]]></entry>
+	<entry id="str_monster_skill_crystalline_gaze"><![CDATA[Crystalline Gaze]]></entry>
+	<entry id="str_monster_skill_timewarp_eye"><![CDATA[Timewarp Eye]]></entry>
+	<entry id="str_monster_skill_crystal_harbinger_riposte"><![CDATA[Riposte]]></entry>
+	
+	<!--Roaming Area and Town Event-->
+    <entry id="town_event_title_crystal_harbinger_roaming_regions"><![CDATA[Something emerges beneath the Mill]]></entry>
+	<entry id="town_event_description_crystal_harbinger_roaming_regions"><![CDATA[An crystalline alienage emerges from the farmstead that was created by the comet, roams in the surrounding regions...]]></entry>
+	<entry id="town_event_info_crystal_harbinger_roaming_regions"><![CDATA[The Crystalline Harbinger will now roam the Estate.]]></entry>
+	<entry id="str_roaming_tooltip_crystal_harbinger"><![CDATA[The Crystal Harbinger is lurking in this week!]]></entry>
+	
+	<!--Names of Harbingers-->
+	<entry id="str_monstername_crystal_harbinger_A"><![CDATA[Created Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_B"><![CDATA[Reinforced Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_C"><![CDATA[Sleeper's Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_D"><![CDATA[Crystalline Harbinger]]></entry>
+	
+	<!--Harbinger's Skill Names-->
+	<entry id="str_monster_skill_liquidized_slash"><![CDATA[Liquidated Slash]]></entry>
+	<entry id="str_monster_skill_shell_protection"><![CDATA[Shell Protection]]></entry>
+	<entry id="str_monster_skill_reconstuct_herald"><![CDATA[Reconstruct Sprout]]></entry>
+	<entry id="str_monster_skill_crystal_polish"><![CDATA[Crystal Polish]]></entry>
+	<entry id="str_monster_skill_crystalline_gaze"><![CDATA[Crystalline Gaze]]></entry>
+	<entry id="str_monster_skill_timewarp_eye"><![CDATA[Timewarp Eye]]></entry>
+	<entry id="str_monster_skill_crystal_harbinger_riposte"><![CDATA[Riposte]]></entry>
+	
+	<!--Roaming Area-->
+	<entry id="str_roaming_tooltip_crystal_harbinger"><![CDATA[The Crystal Harbinger is lurking in this week!]]></entry>
+
+	<!--Crystalline Harbinger's Trophy Trinkets with Tooltip-->
+	<entry id="trinket_rarity_crystal_trophy"><![CDATA[Crystalline Trophy]]></entry>
+	<entry id="str_inventory_title_trinketcrystal_oozing_claw"><![CDATA[Crystal Oozing Claw]]></entry>	
+	<entry id="str_inventory_title_trinketcrystalized_eye"><![CDATA[Crystalized Eye]]></entry>
+	<entry id="str_inventory_title_trinketcrystal_infused_shield"><![CDATA[Crystal-Touched Shield]]></entry>
+	<entry id="str_inventory_set_title_crystal_harbinger_trophy_set"><![CDATA[{colour_start|crystal_trophy}"The comet gleams with memerizing light"{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount Received]]></entry>
+	
+	<!--Tooltip Fix-->
+	<entry id="trinket_melee_attack_skill_additional_effects_miss"><![CDATA[On Melee Attack Miss:]]></entry>
+	<entry id="trinket_ranged_attack_skill_additional_effects_miss"><![CDATA[On Ranged Attack Miss:]]></entry>
+
+	<!--Crystalline Harbinger Loading Screen-->
+    <entry id="loading_screen_override_crystal_harbinger"><![CDATA[Beware the Harbinger!]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[It's shells are hard as diamonds, wait for it's defenses to be lowered.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[The Harbinger was created by the comet that struck the Farmstead.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[It's claws oozes with crystal liquid that taint and damages heroes skin.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[Harbinger reconstructs heralds to aid in battle and it polishes them.]]></entry>
+	
+	<!--Crystalline Herald Special Intereaction Barks-->
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Become one of us...{colour_end} No, stay away from me!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Destroy defected...{colour_end} Why would you do this!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Shatter...{colour_end} My shells are breaking apart from this thing!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}The Comet calls...{colour_end} Why am I so afraid all of the sudden...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}Shard gleams...{colour_end} Why is it looking at me like that...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}Dispose crystals...{colour_end} This can't be, it really can't...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Return to shards...{colour_end} I never seen my shells shake like that...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Galaxy amoung stars...{colour_end} Was I really defect this time...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Your future ends...{colour_end} What about my future, what did it mean by that...]]></entry>
+	</language>
+  <language id="japanese">
+  
+	<!--Names of Harbingers-->
+	<entry id="str_monstername_crystal_harbinger_A"><![CDATA[Created Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_B"><![CDATA[Reinforced Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_C"><![CDATA[Sleeper's Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_D"><![CDATA[Crystalline Harbinger]]></entry>
+	
+	<!--Harbinger's Skill Names-->
+	<entry id="str_monster_skill_liquidized_slash"><![CDATA[Liquidated Slash]]></entry>
+	<entry id="str_monster_skill_shell_protection"><![CDATA[Shell Protection]]></entry>
+	<entry id="str_monster_skill_reconstuct_herald"><![CDATA[Reconstruct Sprout]]></entry>
+	<entry id="str_monster_skill_crystal_polish"><![CDATA[Crystal Polish]]></entry>
+	<entry id="str_monster_skill_crystalline_gaze"><![CDATA[Crystalline Gaze]]></entry>
+	<entry id="str_monster_skill_timewarp_eye"><![CDATA[Timewarp Eye]]></entry>
+	<entry id="str_monster_skill_crystal_harbinger_riposte"><![CDATA[Riposte]]></entry>
+	
+	<!--Roaming Area and Town Event-->
+    <entry id="town_event_title_crystal_harbinger_roaming_regions"><![CDATA[Something emerges beneath the Mill]]></entry>
+	<entry id="town_event_description_crystal_harbinger_roaming_regions"><![CDATA[An crystalline alienage emerges from the farmstead that was created by the comet, roams in the surrounding regions...]]></entry>
+	<entry id="town_event_info_crystal_harbinger_roaming_regions"><![CDATA[The Crystalline Harbinger will now roam the Estate.]]></entry>
+	<entry id="str_roaming_tooltip_crystal_harbinger"><![CDATA[The Crystal Harbinger is lurking in this week!]]></entry>
+	
+	<!--Names of Harbingers-->
+	<entry id="str_monstername_crystal_harbinger_A"><![CDATA[Created Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_B"><![CDATA[Reinforced Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_C"><![CDATA[Sleeper's Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_D"><![CDATA[Crystalline Harbinger]]></entry>
+	
+	<!--Harbinger's Skill Names-->
+	<entry id="str_monster_skill_liquidized_slash"><![CDATA[Liquidated Slash]]></entry>
+	<entry id="str_monster_skill_shell_protection"><![CDATA[Shell Protection]]></entry>
+	<entry id="str_monster_skill_reconstuct_herald"><![CDATA[Reconstruct Sprout]]></entry>
+	<entry id="str_monster_skill_crystal_polish"><![CDATA[Crystal Polish]]></entry>
+	<entry id="str_monster_skill_crystalline_gaze"><![CDATA[Crystalline Gaze]]></entry>
+	<entry id="str_monster_skill_timewarp_eye"><![CDATA[Timewarp Eye]]></entry>
+	<entry id="str_monster_skill_crystal_harbinger_riposte"><![CDATA[Riposte]]></entry>
+	
+	<!--Roaming Area-->
+	<entry id="str_roaming_tooltip_crystal_harbinger"><![CDATA[The Crystal Harbinger is lurking in this week!]]></entry>
+
+	<!--Crystalline Harbinger's Trophy Trinkets with Tooltip-->
+	<entry id="trinket_rarity_crystal_trophy"><![CDATA[Crystalline Trophy]]></entry>
+	<entry id="str_inventory_title_trinketcrystal_oozing_claw"><![CDATA[Crystal Oozing Claw]]></entry>	
+	<entry id="str_inventory_title_trinketcrystalized_eye"><![CDATA[Crystalized Eye]]></entry>
+	<entry id="str_inventory_title_trinketcrystal_infused_shield"><![CDATA[Crystal-Touched Shield]]></entry>
+	<entry id="str_inventory_set_title_crystal_harbinger_trophy_set"><![CDATA[{colour_start|crystal_trophy}"The comet gleams with memerizing light"{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount Received]]></entry>
+	
+	<!--Tooltip Fix-->
+	<entry id="trinket_melee_attack_skill_additional_effects_miss"><![CDATA[On Melee Attack Miss:]]></entry>
+	<entry id="trinket_ranged_attack_skill_additional_effects_miss"><![CDATA[On Ranged Attack Miss:]]></entry>
+
+	<!--Crystalline Harbinger Loading Screen-->
+    <entry id="loading_screen_override_crystal_harbinger"><![CDATA[Beware the Harbinger!]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[It's shells are hard as diamonds, wait for it's defenses to be lowered.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[The Harbinger was created by the comet that struck the Farmstead.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[It's claws oozes with crystal liquid that taint and damages heroes skin.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[Harbinger reconstructs heralds to aid in battle and it polishes them.]]></entry>
+	
+	<!--Crystalline Herald Special Intereaction Barks-->
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Become one of us...{colour_end} No, stay away from me!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Destroy defected...{colour_end} Why would you do this!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Shatter...{colour_end} My shells are breaking apart from this thing!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}The Comet calls...{colour_end} Why am I so afraid all of the sudden...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}Shard gleams...{colour_end} Why is it looking at me like that...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}Dispose crystals...{colour_end} This can't be, it really can't...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Return to shards...{colour_end} I never seen my shells shake like that...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Galaxy amoung stars...{colour_end} Was I really defect this time...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Your future ends...{colour_end} What about my future, what did it mean by that...]]></entry>
+	</language>
+  <language id="koreanb">
+  
+	<!--Names of Harbingers-->
+	<entry id="str_monstername_crystal_harbinger_A"><![CDATA[Created Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_B"><![CDATA[Reinforced Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_C"><![CDATA[Sleeper's Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_D"><![CDATA[Crystalline Harbinger]]></entry>
+	
+	<!--Harbinger's Skill Names-->
+	<entry id="str_monster_skill_liquidized_slash"><![CDATA[Liquidated Slash]]></entry>
+	<entry id="str_monster_skill_shell_protection"><![CDATA[Shell Protection]]></entry>
+	<entry id="str_monster_skill_reconstuct_herald"><![CDATA[Reconstruct Sprout]]></entry>
+	<entry id="str_monster_skill_crystal_polish"><![CDATA[Crystal Polish]]></entry>
+	<entry id="str_monster_skill_crystalline_gaze"><![CDATA[Crystalline Gaze]]></entry>
+	<entry id="str_monster_skill_timewarp_eye"><![CDATA[Timewarp Eye]]></entry>
+	<entry id="str_monster_skill_crystal_harbinger_riposte"><![CDATA[Riposte]]></entry>
+	
+	<!--Roaming Area and Town Event-->
+    <entry id="town_event_title_crystal_harbinger_roaming_regions"><![CDATA[Something emerges beneath the Mill]]></entry>
+	<entry id="town_event_description_crystal_harbinger_roaming_regions"><![CDATA[An crystalline alienage emerges from the farmstead that was created by the comet, roams in the surrounding regions...]]></entry>
+	<entry id="town_event_info_crystal_harbinger_roaming_regions"><![CDATA[The Crystalline Harbinger will now roam the Estate.]]></entry>
+	<entry id="str_roaming_tooltip_crystal_harbinger"><![CDATA[The Crystal Harbinger is lurking in this week!]]></entry>
+	
+	<!--Names of Harbingers-->
+	<entry id="str_monstername_crystal_harbinger_A"><![CDATA[Created Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_B"><![CDATA[Reinforced Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_C"><![CDATA[Sleeper's Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_D"><![CDATA[Crystalline Harbinger]]></entry>
+	
+	<!--Harbinger's Skill Names-->
+	<entry id="str_monster_skill_liquidized_slash"><![CDATA[Liquidated Slash]]></entry>
+	<entry id="str_monster_skill_shell_protection"><![CDATA[Shell Protection]]></entry>
+	<entry id="str_monster_skill_reconstuct_herald"><![CDATA[Reconstruct Sprout]]></entry>
+	<entry id="str_monster_skill_crystal_polish"><![CDATA[Crystal Polish]]></entry>
+	<entry id="str_monster_skill_crystalline_gaze"><![CDATA[Crystalline Gaze]]></entry>
+	<entry id="str_monster_skill_timewarp_eye"><![CDATA[Timewarp Eye]]></entry>
+	<entry id="str_monster_skill_crystal_harbinger_riposte"><![CDATA[Riposte]]></entry>
+	
+	<!--Roaming Area-->
+	<entry id="str_roaming_tooltip_crystal_harbinger"><![CDATA[The Crystal Harbinger is lurking in this week!]]></entry>
+
+	<!--Crystalline Harbinger's Trophy Trinkets with Tooltip-->
+	<entry id="trinket_rarity_crystal_trophy"><![CDATA[Crystalline Trophy]]></entry>
+	<entry id="str_inventory_title_trinketcrystal_oozing_claw"><![CDATA[Crystal Oozing Claw]]></entry>	
+	<entry id="str_inventory_title_trinketcrystalized_eye"><![CDATA[Crystalized Eye]]></entry>
+	<entry id="str_inventory_title_trinketcrystal_infused_shield"><![CDATA[Crystal-Touched Shield]]></entry>
+	<entry id="str_inventory_set_title_crystal_harbinger_trophy_set"><![CDATA[{colour_start|crystal_trophy}"The comet gleams with memerizing light"{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount Received]]></entry>
+	
+	<!--Tooltip Fix-->
+	<entry id="trinket_melee_attack_skill_additional_effects_miss"><![CDATA[On Melee Attack Miss:]]></entry>
+	<entry id="trinket_ranged_attack_skill_additional_effects_miss"><![CDATA[On Ranged Attack Miss:]]></entry>
+
+	<!--Crystalline Harbinger Loading Screen-->
+    <entry id="loading_screen_override_crystal_harbinger"><![CDATA[Beware the Harbinger!]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[It's shells are hard as diamonds, wait for it's defenses to be lowered.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[The Harbinger was created by the comet that struck the Farmstead.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[It's claws oozes with crystal liquid that taint and damages heroes skin.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[Harbinger reconstructs heralds to aid in battle and it polishes them.]]></entry>
+	
+	<!--Crystalline Herald Special Intereaction Barks-->
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Become one of us...{colour_end} No, stay away from me!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Destroy defected...{colour_end} Why would you do this!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Shatter...{colour_end} My shells are breaking apart from this thing!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}The Comet calls...{colour_end} Why am I so afraid all of the sudden...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}Shard gleams...{colour_end} Why is it looking at me like that...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}Dispose crystals...{colour_end} This can't be, it really can't...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Return to shards...{colour_end} I never seen my shells shake like that...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Galaxy amoung stars...{colour_end} Was I really defect this time...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Your future ends...{colour_end} What about my future, what did it mean by that...]]></entry>
+	</language>
+  <language id="koreana">
+  
+	<!--Names of Harbingers-->
+	<entry id="str_monstername_crystal_harbinger_A"><![CDATA[Created Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_B"><![CDATA[Reinforced Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_C"><![CDATA[Sleeper's Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_D"><![CDATA[Crystalline Harbinger]]></entry>
+	
+	<!--Harbinger's Skill Names-->
+	<entry id="str_monster_skill_liquidized_slash"><![CDATA[Liquidated Slash]]></entry>
+	<entry id="str_monster_skill_shell_protection"><![CDATA[Shell Protection]]></entry>
+	<entry id="str_monster_skill_reconstuct_herald"><![CDATA[Reconstruct Sprout]]></entry>
+	<entry id="str_monster_skill_crystal_polish"><![CDATA[Crystal Polish]]></entry>
+	<entry id="str_monster_skill_crystalline_gaze"><![CDATA[Crystalline Gaze]]></entry>
+	<entry id="str_monster_skill_timewarp_eye"><![CDATA[Timewarp Eye]]></entry>
+	<entry id="str_monster_skill_crystal_harbinger_riposte"><![CDATA[Riposte]]></entry>
+	
+	<!--Roaming Area and Town Event-->
+    <entry id="town_event_title_crystal_harbinger_roaming_regions"><![CDATA[Something emerges beneath the Mill]]></entry>
+	<entry id="town_event_description_crystal_harbinger_roaming_regions"><![CDATA[An crystalline alienage emerges from the farmstead that was created by the comet, roams in the surrounding regions...]]></entry>
+	<entry id="town_event_info_crystal_harbinger_roaming_regions"><![CDATA[The Crystalline Harbinger will now roam the Estate.]]></entry>
+	<entry id="str_roaming_tooltip_crystal_harbinger"><![CDATA[The Crystal Harbinger is lurking in this week!]]></entry>
+	
+	<!--Names of Harbingers-->
+	<entry id="str_monstername_crystal_harbinger_A"><![CDATA[Created Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_B"><![CDATA[Reinforced Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_C"><![CDATA[Sleeper's Harbinger]]></entry>
+	<entry id="str_monstername_crystal_harbinger_D"><![CDATA[Crystalline Harbinger]]></entry>
+	
+	<!--Harbinger's Skill Names-->
+	<entry id="str_monster_skill_liquidized_slash"><![CDATA[Liquidated Slash]]></entry>
+	<entry id="str_monster_skill_shell_protection"><![CDATA[Shell Protection]]></entry>
+	<entry id="str_monster_skill_reconstuct_herald"><![CDATA[Reconstruct Sprout]]></entry>
+	<entry id="str_monster_skill_crystal_polish"><![CDATA[Crystal Polish]]></entry>
+	<entry id="str_monster_skill_crystalline_gaze"><![CDATA[Crystalline Gaze]]></entry>
+	<entry id="str_monster_skill_timewarp_eye"><![CDATA[Timewarp Eye]]></entry>
+	<entry id="str_monster_skill_crystal_harbinger_riposte"><![CDATA[Riposte]]></entry>
+	
+	<!--Roaming Area-->
+	<entry id="str_roaming_tooltip_crystal_harbinger"><![CDATA[The Crystal Harbinger is lurking in this week!]]></entry>
+
+	<!--Crystalline Harbinger's Trophy Trinkets with Tooltip-->
+	<entry id="trinket_rarity_crystal_trophy"><![CDATA[Crystalline Trophy]]></entry>
+	<entry id="str_inventory_title_trinketcrystal_oozing_claw"><![CDATA[Crystal Oozing Claw]]></entry>	
+	<entry id="str_inventory_title_trinketcrystalized_eye"><![CDATA[Crystalized Eye]]></entry>
+	<entry id="str_inventory_title_trinketcrystal_infused_shield"><![CDATA[Crystal-Touched Shield]]></entry>
+	<entry id="str_inventory_set_title_crystal_harbinger_trophy_set"><![CDATA[{colour_start|crystal_trophy}"The comet gleams with memerizing light"{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount Received]]></entry>
+	
+	<!--Tooltip Fix-->
+	<entry id="trinket_melee_attack_skill_additional_effects_miss"><![CDATA[On Melee Attack Miss:]]></entry>
+	<entry id="trinket_ranged_attack_skill_additional_effects_miss"><![CDATA[On Ranged Attack Miss:]]></entry>
+
+	<!--Crystalline Harbinger Loading Screen-->
+    <entry id="loading_screen_override_crystal_harbinger"><![CDATA[Beware the Harbinger!]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[It's shells are hard as diamonds, wait for it's defenses to be lowered.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[The Harbinger was created by the comet that struck the Farmstead.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[It's claws oozes with crystal liquid that taint and damages heroes skin.]]></entry>
+	<entry id="str_crystal_harbinger_tip"><![CDATA[Harbinger reconstructs heralds to aid in battle and it polishes them.]]></entry>
+	
+	<!--Crystalline Herald Special Intereaction Barks-->
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Become one of us...{colour_end} No, stay away from me!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Destroy defected...{colour_end} Why would you do this!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_liquidized_slash"><![CDATA[{colour_start|crystal_trophy}Shatter...{colour_end} My shells are breaking apart from this thing!]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}The Comet calls...{colour_end} Why am I so afraid all of the sudden...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}Shard gleams...{colour_end} Why is it looking at me like that...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_crystalline_gaze"><![CDATA[{colour_start|crystal_trophy}Dispose crystals...{colour_end} This can't be, it really can't...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Return to shards...{colour_end} I never seen my shells shake like that...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Galaxy amoung stars...{colour_end} Was I really defect this time...]]></entry>
+	<entry id="revenant_deadlist+str_monster_attack_timewarp_eye"><![CDATA[{colour_start|crystal_trophy}Your future ends...{colour_end} What about my future, what did it mean by that...]]></entry>
+	</language>	
+	</root>

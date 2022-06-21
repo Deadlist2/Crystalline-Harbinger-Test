@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<PreviewIconFile>preview_icon.png</PreviewIconFile>
+	<ItemDescriptionShort/>
+	<ModDataPath>C:/Darkest Dungeon Mod/Crystalline Harbinger/</ModDataPath>
+	<Title>Crystalline Harbinger</Title>
+	<Language>english</Language>
+	<UpdateDetails/>
+	<Visibility>private</Visibility>
+	<UploadMode>direct_upload</UploadMode>
+	<VersionMajor>0</VersionMajor>
+	<VersionMinor>0</VersionMinor>
+	<TargetBuild>0</TargetBuild>
+	<Tags>
+		<Tags>Monster</Tags>
+		<Tags>Boss</Tags>
+		<Tags>Color of Madness</Tags>
+		<Tags>Farmstead</Tags>
+		<Tags>Roaming Boss</Tags>
+	</Tags>
+	<ItemDescription>
+	[i]&quot;Beneath the ruined mill with mindless huskes under control by the comet strucked, more shard alienage malignity emerges underneath the mill, roaming around to seek more unfortunate travelers to bring more demise...&quot;[/i]
+	[h1]Description[/h1]
+	[h1]----------------------------[/h1]
+	This adds a new miniboss to Darkest Dungeon. This Harbinger, a newly constucted massive defensive shards with shells that are hard to break now infused with crystals that serves the comet beneath the shardy mill in the crystal alienage Farmstead. The crystal like claws that can tainted or tear up an unexpected traveler, and it&apos;s terrible gaze so unresilient that warps the mind unto the space and time of place unknown. The starspawn gazes upon the galaxy, of the Darkest Dungeon...
+	
+	[b]Note:[/b] The Crystalline Harbinger is a midgame to endgame encounter. After killing the Miller in the Second Farmstead quest, he will roam around the estate and has a 25% chance to spawn in all level dungeons like Thing from the Stars. He also appears in the Endless mode but becomes fearsome in it&apos;s homeland.
+	
+	[h1]Mod Features[/h1]
+	[h1]----------------------------[/h1]
+	- One new roaming miniboss: Crystalline Harbinger
+	- Three new trinkets that can be dropped by the Crystalline Harbinger
+	- A new custom loading screen for the encounter with several tips
+
+	[h1]Compatible[/h1]
+	[h1]----------------------------[/h1]
+	-This mod is Compatible with Farmstead Plus, Sunward Isles, Vermintide, and Compact Quest Screen
+	
+	[h1]Credits[/h1]
+	[h1]----------------------------[/h1]
+	- Deadlist: Concepts, Sound Design, Coding, Art, Animations, Trinket Design, Town event art
+	- Special thanks to Chassee, Chape, and everyone else who helped tested this mod and bring it to life once more!
+	- The translation still supports English basic, but if you wanted to help translate with better English than mine or other languages, Please DM me on Discord: Deadlist#1635
+	
+	[h1] [b]Legal Disclaimer[/b] [/h1]	
+	[h1]------------------------------------------[/h1]
+	The Crystalline Harbinger is not an official Red Hook Studios product or product modification, and Red Hook Studios Inc. is not responsible in any way for changes or damages that may result from using the mod. Furthermore, “Darkest Dungeon” and the Darkest Dungeon logo are trademarks of Red Hook Studios Inc. All content in the game is Copyright Red Hook Studios Inc. All rights reserved.
+	</ItemDescription>
+	<PublishedFileId>2823836073</PublishedFileId>
+</project>
+

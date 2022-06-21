@@ -1,0 +1,188 @@
+
+crystal_harbinger.sprite.defend.png
+size: 2270,2074
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ash01
+  rotate: false
+  xy: 1054, 539
+  size: 74, 72
+  orig: 74, 72
+  offset: 0, 0
+  index: -1
+ash02
+  rotate: false
+  xy: 808, 397
+  size: 73, 66
+  orig: 73, 66
+  offset: 0, 0
+  index: -1
+ash03
+  rotate: true
+  xy: 2102, 24
+  size: 77, 82
+  orig: 77, 82
+  offset: 0, 0
+  index: -1
+ash04
+  rotate: true
+  xy: 2016, 10
+  size: 91, 84
+  orig: 91, 84
+  offset: 0, 0
+  index: -1
+ash05
+  rotate: true
+  xy: 974, 539
+  size: 72, 78
+  orig: 72, 78
+  offset: 0, 0
+  index: -1
+ash06
+  rotate: false
+  xy: 1038, 404
+  size: 75, 63
+  orig: 75, 63
+  offset: 0, 0
+  index: -1
+ash07
+  rotate: true
+  xy: 1927, 13
+  size: 88, 87
+  orig: 88, 87
+  offset: 0, 0
+  index: -1
+ash08
+  rotate: false
+  xy: 892, 537
+  size: 80, 74
+  orig: 80, 74
+  offset: 0, 0
+  index: -1
+ash09
+  rotate: true
+  xy: 1841, 8
+  size: 93, 84
+  orig: 93, 84
+  offset: 0, 0
+  index: -1
+ash10
+  rotate: false
+  xy: 808, 465
+  size: 80, 71
+  orig: 80, 71
+  offset: 0, 0
+  index: -1
+ash11
+  rotate: false
+  xy: 808, 329
+  size: 73, 66
+  orig: 73, 66
+  offset: 0, 0
+  index: -1
+ash12
+  rotate: false
+  xy: 808, 538
+  size: 82, 73
+  orig: 82, 73
+  offset: 0, 0
+  index: -1
+ash13
+  rotate: false
+  xy: 2186, 2
+  size: 74, 84
+  orig: 74, 84
+  offset: 0, 0
+  index: -1
+ash14
+  rotate: true
+  xy: 965, 399
+  size: 69, 71
+  orig: 69, 71
+  offset: 0, 0
+  index: -1
+ash15
+  rotate: true
+  xy: 1115, 399
+  size: 68, 65
+  orig: 68, 65
+  offset: 0, 0
+  index: -1
+ash16
+  rotate: false
+  xy: 974, 470
+  size: 79, 67
+  orig: 79, 67
+  offset: 0, 0
+  index: -1
+ash17
+  rotate: false
+  xy: 890, 467
+  size: 73, 68
+  orig: 73, 68
+  offset: 0, 0
+  index: -1
+ash18
+  rotate: false
+  xy: 890, 396
+  size: 70, 69
+  orig: 70, 69
+  offset: 0, 0
+  index: -1
+ash19
+  rotate: true
+  xy: 1055, 469
+  size: 68, 73
+  orig: 68, 73
+  offset: 0, 0
+  index: -1
+ash20
+  rotate: false
+  xy: 2200, 88
+  size: 68, 86
+  orig: 68, 86
+  offset: 0, 0
+  index: -1
+ash_cloud_defend01
+  rotate: false
+  xy: 1184, 7
+  size: 655, 712
+  orig: 655, 712
+  offset: 0, 0
+  index: -1
+ash_cloud_defend02
+  rotate: true
+  xy: 2, 36
+  size: 575, 804
+  orig: 575, 804
+  offset: 0, 0
+  index: -1
+ash_cloud_defend03
+  rotate: false
+  xy: 1841, 176
+  size: 415, 543
+  orig: 415, 543
+  offset: 0, 0
+  index: -1
+ash_cloud_defend04
+  rotate: true
+  xy: 2, 613
+  size: 1459, 1180
+  orig: 1459, 1180
+  offset: 0, 0
+  index: -1
+defend
+  rotate: true
+  xy: 1184, 721
+  size: 1351, 1083
+  orig: 1351, 1083
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 1841, 103
+  size: 71, 357
+  orig: 71, 357
+  offset: 0, 0
+  index: -1

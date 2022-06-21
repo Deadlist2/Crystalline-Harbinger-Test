@@ -1,0 +1,20 @@
+
+crystal_harbinger.sprite.reconstruct_sprout.png
+size: 1699,901
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+crystal_glow
+  rotate: true
+  xy: 2, 2
+  size: 897, 1034
+  orig: 897, 1034
+  offset: 0, 0
+  index: -1
+rim_light
+  rotate: false
+  xy: 1038, 172
+  size: 659, 727
+  orig: 659, 727
+  offset: 0, 0
+  index: -1

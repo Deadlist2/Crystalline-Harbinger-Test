@@ -1,0 +1,21 @@
+display: .size 3
+enemy_type: .id "husk"
+enemy_type: .id "cosmic"
+stats: .hp 189 .def 25% .prot 0.50 .spd 5 .stun_resist 240% .poison_resist 80% .bleed_resist 240% .debuff_resist 60% .move_resist 160%
+skill: .id "liquidized_slash" .type "melee" .atk 117% .dmg 9 16 .crit 15% .effect "CrystalHarbingerBlight4" "CrystalHarbingerRiposteA" .launch 4321 .target 12
+skill: .id "shell_protection" .type "ranged" .atk 0% .dmg 0 0 .crit 0% .effect "CrystalHarbingerBuffTarget1" "CrystalHarbingerGuardAlly" "CrystalHarbingerAegisAlly2" "CrystalHarbingerDebuffSelf4" "CrystalHarbingerRiposteA" .launch 4321 .target @4321 .self_target_valid False
+skill: .id "reconstuct_herald" .type "ranged" .atk 0% .dmg 0 0 .crit 0% .effect "CrystalHarbingerSpawnHerald3" "CrystalHarbingerRiposteA" .launch 4321 .target .is_knowledgeable False  .is_crit_valid False
+skill: .id "crystal_polish" .type "ranged" .atk 0% .dmg 0 0 .crit 0% .effect "CrystalHarbingerHealAlly" "CrystalHarbingerBuffAllyMaxHealth" "CrystalHarbingerBuffAllyDamageReflect" "CrystalHarbingerBuffAllyDamageReceived4" "CrystalHarbingerHealSelf4" "Cure Debuffs Self" "Cure" "CrystalHarbingerRiposteA" .launch 4321 .target ~@4321 .is_crit_valid False
+skill: .id "crystalline_gaze" .type "ranged" .atk 122% .dmg 6 10 .crit 8% .effect "CrystalHarbingerStress4" "CrystalHarbingerStun4" "CrystalHarbingerHorror4" "CrystalHarbingerRiposteA" .launch 4321 .target 4321 .extra_targets_count 1 .extra_targets_chance 0.35
+skill: .id "timewarp_eye" .type "ranged" .atk 117% .dmg 2 5 .crit 5% .effect "CrystalHarbingerShuffleParty" "CrystalHarbingerStumble4" "CrystalHarbingerRandomTarget4" "CrystalHarbingerRiposteA" .launch 4321 .target ~4321
+
+riposte_skill: .id "crystal_harbinger_riposte" .type "melee" .atk 114.75% .dmg 8 17 .crit 12%  .effect "CrystalHarbingerRipostedebuff4" .launch 4321 .target
+personality: .prefskill -1
+loot: .code "THING_SHARDS" .count 1
+loot: .code "CRYSTAL_HARBINGER_TRINKET" .count 1
+initiative: .number_of_turns_per_round 3
+monster_brain: .id crystal_harbinger_A
+tag: .id "boss"
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty True .can_surprise True .can_be_surprised False .always_surprise False .always_be_surprised False
+spawn: .effects "CrystalHarbingerRiposteA" "CrystalHarbingerSpawnBuff4"
+death_reaction: .target_allies false .target_enemies true .effects "Crystalboss Kill"

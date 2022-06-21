@@ -1,0 +1,750 @@
+{
+	"buffs": [{
+			"id": "crystal_harbinger_damage_low_debuff1",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_low",
+			"amount": -0.10,
+			"duration": 3,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "crystal_harbinger_damage_low_debuff2",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_low",
+			"amount": -0.15,
+			"duration": 3,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "crystal_harbinger_damage_high_debuff2",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_high",
+			"amount": -0.15,
+			"duration": 3,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "crystal_harbinger_damage_low_debuff3",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_low",
+			"amount": -0.20,
+			"duration": 3,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "crystal_harbinger_damage_high_debuff3",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_high",
+			"amount": -0.20,
+			"duration": 3,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "crystal_harbinger_damage_low_debuff4",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_low",
+			"amount": -0.25,
+			"duration": 3,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "crystal_harbinger_damage_high_debuff4",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_high",
+			"amount": -0.25,
+			"duration": 3,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "crystal_harbinger_max_hp_buff",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "max_hp",
+			"amount": 0.33,
+			"duration": -1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "crystal_harbinger_damage_reflection_buff",
+			"stat_type": "damage_reflect_percent",
+			"stat_sub_type": "",
+			"amount": 0.35,
+			"duration": 3,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "crystal_harbinger_damage_received_ally_buff1",
+			"stat_type": "damage_received_percent",
+			"stat_sub_type": "",
+			"amount": -0.25,
+			"duration": 3,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "crystal_harbinger_damage_received_ally_buff2",
+			"stat_type": "damage_received_percent",
+			"stat_sub_type": "",
+			"amount": -0.3,
+			"duration": 3,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "crystal_harbinger_damage_received_ally_buff3",
+			"stat_type": "damage_received_percent",
+			"stat_sub_type": "",
+			"amount": -0.35,
+			"duration": 3,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "crystal_harbinger_damage_received_ally_buff4",
+			"stat_type": "damage_received_percent",
+			"stat_sub_type": "",
+			"amount": -0.4,
+			"duration": 3,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "crystal_harbinger_prot_buff",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.30,
+			"duration": 3,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "crystal_harbinger_self_prot_debuff1",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": -0.2,
+			"duration": 5,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+		{
+			"id": "crystal_harbinger_self_prot_debuff2",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": -0.3,
+			"duration": 5,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+		{
+			"id": "crystal_harbinger_self_prot_debuff3",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": -0.4,
+			"duration": 5,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+		{
+			"id": "crystal_harbinger_self_prot_debuff4",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": -0.5,
+			"duration": 5,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+		{
+			"id": "crystal_harbinger_self_dmg_received_debuff1",
+			"stat_type": "damage_received_percent",
+			"stat_sub_type": "",
+			"amount": 0.1,
+			"duration": 5,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+		{
+			"id": "crystal_harbinger_self_dmg_received_debuff2",
+			"stat_type": "damage_received_percent",
+			"stat_sub_type": "",
+			"amount": 0.15,
+			"duration": 5,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+		{
+			"id": "crystal_harbinger_self_dmg_received_debuff3",
+			"stat_type": "damage_received_percent",
+			"stat_sub_type": "",
+			"amount": 0.20,
+			"duration": 5,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+		{
+			"id": "crystal_harbinger_self_dmg_received_debuff4",
+			"stat_type": "damage_received_percent",
+			"stat_sub_type": "",
+			"amount": 0.25,
+			"duration": 5,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+		{
+			"id": "crystal_harbinger_spawn_dmg_received_buff1",
+			"stat_type": "damage_received_percent",
+			"stat_sub_type": "",
+			"amount": -0.1,
+			"duration": -1,
+			"duration_type": "quest_end",
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "crystal_harbinger_spawn_dmg_received_buff2",
+			"stat_type": "damage_received_percent",
+			"stat_sub_type": "",
+			"amount": -0.15,
+			"duration": -1,
+			"duration_type": "quest_end",
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "crystal_harbinger_spawn_dmg_received_buff3",
+			"stat_type": "damage_received_percent",
+			"stat_sub_type": "",
+			"amount": -0.20,
+			"duration": -1,
+			"duration_type": "quest_end",
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "crystal_harbinger_spawn_dmg_received_buff4",
+			"stat_type": "damage_received_percent",
+			"stat_sub_type": "",
+			"amount": -0.25,
+			"duration": 1,
+			"duration_type": "quest_end",
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "crystal_harbinger_random_target_debuff1",
+			"stat_type": "random_target_attack_chance",
+			"stat_sub_type": "",
+			"amount": 0.25,
+			"duration": 2,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "crystal_harbinger_random_target_debuff2",
+			"stat_type": "random_target_attack_chance",
+			"stat_sub_type": "",
+			"amount": 0.30,
+			"duration": 2,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "crystal_harbinger_random_target_debuff3",
+			"stat_type": "random_target_attack_chance",
+			"stat_sub_type": "",
+			"amount": 0.35,
+			"duration": 2,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "crystal_harbinger_random_target_debuff4",
+			"stat_type": "random_target_attack_chance",
+			"stat_sub_type": "",
+			"amount": 0.40,
+			"duration": 2,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "crystal_harbinger_riposte_damage_low_debuff1",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_low",
+			"amount": -0.15,
+			"duration": 5,
+			"remove_if_not_active": false,
+			"rule_type": "riposte",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+		{
+			"id": "crystal_harbinger_riposte_damage_high_debuff1",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_high",
+			"amount": -0.15,
+			"duration": 5,
+			"remove_if_not_active": false,
+			"rule_type": "riposte",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+		{
+			"id": "crystal_harbinger_riposte_damage_low_debuff2",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_low",
+			"amount": -0.20,
+			"duration": 5,
+			"remove_if_not_active": false,
+			"rule_type": "riposte",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+		{
+			"id": "crystal_harbinger_riposte_damage_high_debuff2",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_high",
+			"amount": -0.20,
+			"duration": 5,
+			"remove_if_not_active": false,
+			"rule_type": "riposte",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+		{
+			"id": "crystal_harbinger_riposte_damage_low_debuff3",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_low",
+			"amount": -0.25,
+			"duration": 5,
+			"remove_if_not_active": false,
+			"rule_type": "riposte",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+		{
+			"id": "crystal_harbinger_riposte_damage_high_debuff3",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_high",
+			"amount": -0.25,
+			"duration": 5,
+			"remove_if_not_active": false,
+			"rule_type": "riposte",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+		{
+			"id": "crystal_harbinger_riposte_damage_low_debuff4",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_low",
+			"amount": -0.3,
+			"duration": 5,
+			"remove_if_not_active": false,
+			"rule_type": "riposte",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+		{
+			"id": "crystal_harbinger_riposte_damage_high_debuff4",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_high",
+			"amount": -0.3,
+			"duration": 5,
+			"remove_if_not_active": false,
+			"rule_type": "riposte",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+		{
+			"id": "oozing_claw_blight_amount",
+			"stat_type": "hp_dot_poison_amount_received_percent",
+			"stat_sub_type": "",
+			"amount": 0.2,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "oozing_claw_heal_received_debuff",
+			"stat_type": "hp_heal_received_percent",
+			"stat_sub_type": "",
+			"amount": -0.2,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "oozing_claw_blight_resistance_debuff",
+			"stat_type": "resistance",
+			"stat_sub_type": "poison",
+			"amount": -0.3,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "crystal_eye_stun_chance_buff",
+			"stat_type": "stun_chance",
+			"stat_sub_type": "",
+			"amount": -0.3,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "crystal_eye_crit_chance_buff",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "crit_chance",
+			"amount": 0.08,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "crystal_eye_random_attack",
+			"stat_type": "random_target_attack_chance",
+			"stat_sub_type": "",
+			"amount": 0.25,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "crystal_eye_stress_debuff",
+			"stat_type": "stress_dmg_received_percent",
+			"stat_sub_type": "",
+			"amount": 0.15,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "crystal_infused_shield_prot_buff",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.30,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "crystal_infused_shield_damage_debuff_low",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_low",
+			"amount": -0.15,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "crystal_infused_shield_damage_debuff_high",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_high",
+			"amount": -0.15,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "crystal_infused_shield_speed_debuff",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "speed_rating",
+			"amount": -5,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "crystal_trophy_bonus_set_husk_damage_low_buff",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_low",
+			"amount": 0.5,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "husk"
+			}
+		},
+		{
+			"id": "crystal_trophy_bonus_set_husk_damage_high_buff",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_high",
+			"amount": 0.5,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "husk"
+			}
+		},
+		{
+			"id": "crystal_trophy_bonus_set_husk_armor_pierce_buff",
+			"stat_type": "ignore_protection",
+			"stat_sub_type": "",
+			"amount": 0.5,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "husk"
+			}
+		},
+		{
+			"id": "crystal_trophy_bonus_set_husk_crit_buff",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "crit_chance",
+			"amount": 0.1,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "husk"
+			}
+		}
+	]
+}

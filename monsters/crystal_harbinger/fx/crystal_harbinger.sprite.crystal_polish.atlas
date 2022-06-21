@@ -1,0 +1,286 @@
+
+crystal_harbinger.sprite.crystal_polish.png
+size: 1960,558
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+crystal01
+  rotate: true
+  xy: 1491, 196
+  size: 360, 378
+  orig: 360, 378
+  offset: 0, 0
+  index: -1
+crystal02
+  rotate: true
+  xy: 1708, 58
+  size: 136, 248
+  orig: 136, 248
+  offset: 0, 0
+  index: -1
+crystal03
+  rotate: true
+  xy: 1491, 19
+  size: 175, 215
+  orig: 175, 215
+  offset: 0, 0
+  index: -1
+crystal_small01
+  rotate: false
+  xy: 1921, 462
+  size: 33, 50
+  orig: 33, 50
+  offset: 0, 0
+  index: -1
+crystal_small02
+  rotate: true
+  xy: 1871, 481
+  size: 39, 48
+  orig: 39, 48
+  offset: 0, 0
+  index: -1
+crystal_small03
+  rotate: false
+  xy: 1871, 522
+  size: 56, 34
+  orig: 56, 34
+  offset: 0, 0
+  index: -1
+crystal_small04
+  rotate: true
+  xy: 1909, 434
+  size: 26, 40
+  orig: 26, 40
+  offset: 0, 0
+  index: -1
+crystal_small05
+  rotate: false
+  xy: 1871, 387
+  size: 31, 27
+  orig: 31, 27
+  offset: 0, 0
+  index: -1
+crystal_small06
+  rotate: false
+  xy: 1907, 402
+  size: 31, 30
+  orig: 31, 30
+  offset: 0, 0
+  index: -1
+crystal_small07
+  rotate: false
+  xy: 1929, 514
+  size: 28, 42
+  orig: 28, 42
+  offset: 0, 0
+  index: -1
+crystal_small08
+  rotate: true
+  xy: 1871, 448
+  size: 31, 36
+  orig: 31, 36
+  offset: 0, 0
+  index: -1
+crystal_small09
+  rotate: true
+  xy: 1904, 375
+  size: 25, 33
+  orig: 25, 33
+  offset: 0, 0
+  index: -1
+crystal_small10
+  rotate: false
+  xy: 1871, 416
+  size: 34, 30
+  orig: 34, 30
+  offset: 0, 0
+  index: -1
+crystal_small11
+  rotate: true
+  xy: 1871, 359
+  size: 26, 29
+  orig: 26, 29
+  offset: 0, 0
+  index: -1
+crystal_small12
+  rotate: false
+  xy: 1902, 349
+  size: 27, 24
+  orig: 27, 24
+  offset: 0, 0
+  index: -1
+crystal_tiny01
+  rotate: false
+  xy: 1894, 324
+  size: 24, 23
+  orig: 24, 23
+  offset: 0, 0
+  index: -1
+crystal_tiny02
+  rotate: false
+  xy: 278, 4
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+crystal_tiny03
+  rotate: false
+  xy: 261, 3
+  size: 15, 17
+  orig: 15, 17
+  offset: 0, 0
+  index: -1
+crystal_tiny04
+  rotate: false
+  xy: 141, 3
+  size: 19, 17
+  orig: 19, 17
+  offset: 0, 0
+  index: -1
+crystal_tiny05
+  rotate: false
+  xy: 242, 3
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+crystal_tiny06
+  rotate: false
+  xy: 183, 2
+  size: 17, 18
+  orig: 17, 18
+  offset: 0, 0
+  index: -1
+crystal_tiny07
+  rotate: false
+  xy: 202, 2
+  size: 17, 18
+  orig: 17, 18
+  offset: 0, 0
+  index: -1
+crystal_tiny08
+  rotate: true
+  xy: 221, 4
+  size: 16, 19
+  orig: 16, 19
+  offset: 0, 0
+  index: -1
+crystal_tiny09
+  rotate: true
+  xy: 162, 3
+  size: 17, 19
+  orig: 17, 19
+  offset: 0, 0
+  index: -1
+crystal_tiny10
+  rotate: false
+  xy: 1919, 300
+  size: 24, 19
+  orig: 24, 19
+  offset: 0, 0
+  index: -1
+crystal_tiny11
+  rotate: true
+  xy: 1939, 375
+  size: 25, 19
+  orig: 25, 19
+  offset: 0, 0
+  index: -1
+crystal_tiny12
+  rotate: true
+  xy: 72, 3
+  size: 17, 20
+  orig: 17, 20
+  offset: 0, 0
+  index: -1
+crystal_tiny13
+  rotate: false
+  xy: 1893, 302
+  size: 24, 20
+  orig: 24, 20
+  offset: 0, 0
+  index: -1
+crystal_tiny14
+  rotate: true
+  xy: 49, 3
+  size: 17, 21
+  orig: 17, 21
+  offset: 0, 0
+  index: -1
+crystal_tiny15
+  rotate: true
+  xy: 1871, 299
+  size: 26, 20
+  orig: 26, 20
+  offset: 0, 0
+  index: -1
+crystal_tiny16
+  rotate: true
+  xy: 94, 4
+  size: 16, 21
+  orig: 16, 21
+  offset: 0, 0
+  index: -1
+crystal_tiny17
+  rotate: true
+  xy: 26, 2
+  size: 18, 21
+  orig: 18, 21
+  offset: 0, 0
+  index: -1
+crystal_tiny18
+  rotate: true
+  xy: 1893, 281
+  size: 19, 21
+  orig: 19, 21
+  offset: 0, 0
+  index: -1
+crystal_tiny19
+  rotate: true
+  xy: 1871, 327
+  size: 30, 21
+  orig: 30, 21
+  offset: 0, 0
+  index: -1
+crystal_tiny20
+  rotate: true
+  xy: 117, 5
+  size: 15, 22
+  orig: 15, 22
+  offset: 0, 0
+  index: -1
+crystal_tiny21
+  rotate: true
+  xy: 2, 2
+  size: 18, 22
+  orig: 18, 22
+  offset: 0, 0
+  index: -1
+crystal_tiny22
+  rotate: true
+  xy: 1931, 344
+  size: 29, 22
+  orig: 29, 22
+  offset: 0, 0
+  index: -1
+crystal_tiny23
+  rotate: true
+  xy: 1920, 321
+  size: 21, 23
+  orig: 21, 23
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 1002, 6
+  size: 487, 550
+  orig: 487, 550
+  offset: 0, 0
+  index: -1
+rim_light
+  rotate: false
+  xy: 2, 22
+  size: 998, 534
+  orig: 998, 534
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,34 @@
+
+crystal_harbinger.sprite.liquid_slash.png
+size: 675,1317
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+claw_trail01
+  rotate: false
+  xy: 404, 236
+  size: 239, 614
+  orig: 239, 614
+  offset: 0, 0
+  index: -1
+claw_trail02
+  rotate: false
+  xy: 2, 504
+  size: 297, 811
+  orig: 297, 811
+  offset: 0, 0
+  index: -1
+rim_light01
+  rotate: true
+  xy: 2, 2
+  size: 500, 400
+  orig: 500, 400
+  offset: 0, 0
+  index: -1
+rim_light02
+  rotate: false
+  xy: 301, 852
+  size: 372, 463
+  orig: 372, 463
+  offset: 0, 0
+  index: -1

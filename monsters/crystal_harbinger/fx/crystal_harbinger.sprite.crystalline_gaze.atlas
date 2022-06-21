@@ -1,0 +1,104 @@
+
+crystal_harbinger.sprite.crystalline_gaze.png
+size: 4060,964
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+light_ray
+  rotate: true
+  xy: 1812, 257
+  size: 705, 656
+  orig: 705, 656
+  offset: 0, 0
+  index: -1
+lighting01
+  rotate: true
+  xy: 2470, 292
+  size: 670, 468
+  orig: 670, 468
+  offset: 0, 0
+  index: -1
+lighting02
+  rotate: false
+  xy: 3616, 81
+  size: 439, 529
+  orig: 439, 529
+  offset: 0, 0
+  index: -1
+lighting03
+  rotate: true
+  xy: 1946, 4
+  size: 251, 243
+  orig: 251, 243
+  offset: 0, 0
+  index: -1
+lighting04
+  rotate: false
+  xy: 667, 88
+  size: 617, 874
+  orig: 617, 874
+  offset: 0, 0
+  index: -1
+lighting05
+  rotate: false
+  xy: 2940, 357
+  size: 179, 605
+  orig: 179, 605
+  offset: 0, 0
+  index: -1
+lighting06
+  rotate: false
+  xy: 2710, 103
+  size: 461, 187
+  orig: 461, 187
+  offset: 0, 0
+  index: -1
+lighting_glow01
+  rotate: true
+  xy: 1286, 238
+  size: 724, 524
+  orig: 724, 524
+  offset: 0, 0
+  index: -1
+lighting_glow02
+  rotate: false
+  xy: 3121, 377
+  size: 493, 585
+  orig: 493, 585
+  offset: 0, 0
+  index: -1
+lighting_glow03
+  rotate: true
+  xy: 3173, 67
+  size: 308, 300
+  orig: 308, 300
+  offset: 0, 0
+  index: -1
+lighting_glow04
+  rotate: false
+  xy: 2, 37
+  size: 663, 925
+  orig: 663, 925
+  offset: 0, 0
+  index: -1
+lighting_glow05
+  rotate: true
+  xy: 1286, 2
+  size: 234, 658
+  orig: 234, 658
+  offset: 0, 0
+  index: -1
+lighting_glow06
+  rotate: false
+  xy: 2191, 8
+  size: 517, 247
+  orig: 517, 247
+  offset: 0, 0
+  index: -1
+rim_light
+  rotate: true
+  xy: 3616, 612
+  size: 350, 442
+  orig: 350, 442
+  offset: 0, 0
+  index: -1

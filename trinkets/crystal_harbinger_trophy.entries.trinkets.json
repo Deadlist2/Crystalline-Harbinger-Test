@@ -1,0 +1,75 @@
+{
+   "entries":
+   [
+       {
+          "id" : "crystal_oozing_claw",
+          "buffs" : 
+         [
+	 "oozing_claw_blight_amount",
+	 "oozing_claw_heal_received_debuff",
+	 "oozing_claw_blight_resistance_debuff"
+         ],
+          "hero_class_requirements":
+         [
+         ],
+         "set_id" : "crystal_harbinger_trophy_set",
+         "rarity" : "crystal_trophy",
+         "shard" : 0,
+         "limit" : 1,
+         "origin_dungeon" : "",
+         "melee_attack_skill_additional_effects":
+         [
+             "OozingClawBlightHit",
+             "OozingClawBlightMiss"
+         ]
+      },
+       {
+          "id" : "crystalized_eye",
+          "buffs" : 
+         [
+	 "crystal_eye_crit_chance_buff",
+	"crystal_eye_stun_chance_buff",
+	 "crystal_eye_random_attack",
+                   "crystal_eye_stress_debuff"
+         ],
+          "hero_class_requirements":
+         [
+         ],
+         "set_id" : "crystal_harbinger_trophy_set",
+         "rarity" : "crystal_trophy",
+         "shard" : 0,
+         "limit" : 1,
+         "origin_dungeon" : "",
+         "ranged_attack_skill_additional_effects":
+         [
+             "CrystalizedEyeShuffleTarget",
+             "CrystalizedEyeHit",
+             "CrystalizedEyeShuffleSelf",
+             "CrystalizedEyeMiss"
+         ]
+      },
+       {
+          "id" : "crystal_infused_shield",
+          "buffs" : 
+         [
+	 "crystal_infused_shield_prot_buff",
+	"crystal_infused_shield_damage_debuff_low",
+	 "crystal_infused_shield_damage_debuff_high",
+                   "crystal_infused_shield_speed_debuff"
+         ],
+          "hero_class_requirements":
+         [
+         ],
+         "set_id" : "crystal_harbinger_trophy_set",
+         "rarity" : "crystal_trophy",
+         "shard" : 0,
+         "limit" : 1,
+         "origin_dungeon" : "",
+         "friendly_skill_additional_effects":
+         [
+             "CrystalShieldAegisAlly",
+             "CrystalShieldGuardAlly"
+         ]
+      }
+   ]
+}

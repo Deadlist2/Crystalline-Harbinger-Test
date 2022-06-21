@@ -1,0 +1,10 @@
+commonfx: .deathfx crystal_explode_death
+skill: .id "liquidized_slash" .anim "attack_claw" .fx "liquid_slash" .targchestfx "blood_splatter" .area_pos_offset 0 -125 .target_area_pos_offset 0 0
+skill: .id "shell_protection" .anim "attack_guard" .targheadfx "target_crystal_guard" .area_pos_offset 0 -75 .target_area_pos_offset 0 50
+skill: .id "reconstuct_herald" .anim "attack_reconstruct" .fx "reconstruct_sprout" .area_pos_offset 0 -100 .target_area_pos_offset 0 0
+skill: .id "crystal_polish" .anim "attack_polish" .fx "crystal_polish" .area_pos_offset 0 -150 .target_area_pos_offset 0 50
+skill: .id "crystalline_gaze" .anim "attack_eye" .fx "crystalline_gaze" .targheadfx "crystalline_gaze_target" .area_pos_offset 0 -130 .target_area_pos_offset 0 0
+skill: .id "timewarp_eye" .anim "attack_eye" .fx "timewarp_eye" .targheadfx "rend_the_warp_target" .area_pos_offset 0 -50 .target_area_pos_offset 0 0
+riposte_skill: .id "crystal_harbinger_riposte" .anim "attack_crystals" .targchestfx "blood_splatter" .area_pos_offset 0 -100 .target_area_pos_offset 0 0
+defending_area_pos_offset: .offset 0 -100
+

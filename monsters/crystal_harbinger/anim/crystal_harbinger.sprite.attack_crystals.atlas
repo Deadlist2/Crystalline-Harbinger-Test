@@ -1,0 +1,181 @@
+
+crystal_harbinger.sprite.attack_crystals.png
+size: 3965,1813
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ash01
+  rotate: true
+  xy: 536, 7
+  size: 38, 37
+  orig: 38, 37
+  offset: 0, 0
+  index: -1
+ash02
+  rotate: true
+  xy: 447, 5
+  size: 40, 45
+  orig: 40, 45
+  offset: 0, 0
+  index: -1
+ash03
+  rotate: false
+  xy: 1468, 38
+  size: 49, 57
+  orig: 49, 57
+  offset: 0, 0
+  index: -1
+ash04
+  rotate: false
+  xy: 1453, 411
+  size: 45, 47
+  orig: 45, 47
+  offset: 0, 0
+  index: -1
+ash05
+  rotate: false
+  xy: 1414, 158
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1
+ash06
+  rotate: true
+  xy: 1341, 158
+  size: 62, 71
+  orig: 62, 71
+  offset: 0, 0
+  index: -1
+ash07
+  rotate: false
+  xy: 1468, 97
+  size: 55, 59
+  orig: 55, 59
+  offset: 0, 0
+  index: -1
+ash08
+  rotate: false
+  xy: 402, 2
+  size: 43, 43
+  orig: 43, 43
+  offset: 0, 0
+  index: -1
+ash09
+  rotate: true
+  xy: 1453, 460
+  size: 48, 44
+  orig: 48, 44
+  offset: 0, 0
+  index: -1
+ash10
+  rotate: false
+  xy: 1519, 45
+  size: 47, 50
+  orig: 47, 50
+  offset: 0, 0
+  index: -1
+ash11
+  rotate: false
+  xy: 494, 5
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+ash12
+  rotate: true
+  xy: 1285, 156
+  size: 64, 54
+  orig: 64, 54
+  offset: 0, 0
+  index: -1
+ash_cloud01
+  rotate: false
+  xy: 2345, 790
+  size: 913, 1021
+  orig: 913, 1021
+  offset: 0, 0
+  index: -1
+ash_cloud02
+  rotate: false
+  xy: 1131, 510
+  size: 674, 1301
+  orig: 674, 1301
+  offset: 0, 0
+  index: -1
+crystal_attack01
+  rotate: false
+  xy: 1807, 13
+  size: 622, 712
+  orig: 622, 712
+  offset: 0, 0
+  index: -1
+crystal_attack02
+  rotate: false
+  xy: 3368, 152
+  size: 592, 947
+  orig: 592, 947
+  offset: 0, 0
+  index: -1
+crystal_body
+  rotate: false
+  xy: 3260, 1101
+  size: 703, 710
+  orig: 703, 710
+  offset: 0, 0
+  index: -1
+crystal_claws
+  rotate: false
+  xy: 402, 47
+  size: 808, 421
+  orig: 808, 421
+  offset: 0, 0
+  index: -1
+crystal_harbinger_head
+  rotate: false
+  xy: 2, 20
+  size: 398, 448
+  orig: 398, 448
+  offset: 0, 0
+  index: -1
+crystalized_shell01
+  rotate: false
+  xy: 1807, 727
+  size: 536, 1084
+  orig: 536, 1084
+  offset: 0, 0
+  index: -1
+crystalized_shell02
+  rotate: true
+  xy: 2431, 12
+  size: 776, 935
+  orig: 776, 935
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 1212, 151
+  size: 71, 357
+  orig: 71, 357
+  offset: 0, 0
+  index: -1
+shell_horn01
+  rotate: true
+  xy: 1285, 222
+  size: 286, 166
+  orig: 286, 166
+  offset: 0, 0
+  index: -1
+shell_horn02
+  rotate: false
+  xy: 1212, 24
+  size: 254, 125
+  orig: 254, 125
+  offset: 0, 0
+  index: -1
+starburst
+  rotate: true
+  xy: 2, 470
+  size: 1341, 1127
+  orig: 1341, 1127
+  offset: 0, 0
+  index: -1
