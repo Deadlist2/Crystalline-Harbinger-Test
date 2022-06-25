@@ -14,7 +14,7 @@ personality: .prefskill -1
 loot: .code "THING_SHARDS" .count 1
 loot: .code "CRYSTAL_HARBINGER_TRINKET" .count 1
 loot: .code "REVENANT" .count 1
-initiative: .number_of_turns_per_round 3
+initiative: .number_of_turns_per_round 2
 monster_brain: .id crystal_harbinger_A
 tag: .id "boss"
 battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty True .can_surprise True .can_be_surprised False .always_surprise False .always_be_surprised False

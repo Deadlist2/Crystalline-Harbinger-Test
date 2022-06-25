@@ -4,20 +4,20 @@
 		"skill_cooldowns": [
 		{
 				"combat_skill_id": "shell_protection",
-				"amount": 6
+				"amount": 5
 			},
 			{
 				"combat_skill_id": "crystalline_gaze",
-				"amount": 4
+				"amount": 3
 			},
 			{
 				"combat_skill_id": "crystal_polish",
-				"amount": 8
+				"amount": 7
 			},
 
 			{
 				"combat_skill_id": "timewarp_eye",
-				"amount": 5
+				"amount": 4
 			}
 		],
 		"skill_selection_desires": [{

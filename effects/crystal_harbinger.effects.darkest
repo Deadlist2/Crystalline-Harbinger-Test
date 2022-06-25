@@ -59,9 +59,9 @@ effect: .name "CrystalHarbingerRandomTarget3" .target "target" .chance 120% .cur
 effect: .name "CrystalHarbingerRandomTarget4" .target "target" .chance 140% .curio_result_type "negative" .buff_ids "crystal_harbinger_random_target_debuff4" .on_hit true .on_miss false .can_apply_on_death true
 
 //Spawn Herald
-effect: .name "CrystalHarbingerSpawnHerald1" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot false  .summon_monsters revenant_A .summon_chances 1.0 .summon_limits 1 .summon_ranks 4 .on_hit true .on_miss true .apply_once true
-effect: .name "CrystalHarbingerSpawnHerald2" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot false  .summon_monsters revenant_B .summon_chances 1.0 .summon_limits 1 .summon_ranks 4 .on_hit true .on_miss true .apply_once true
-effect: .name "CrystalHarbingerSpawnHerald3" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot false  .summon_monsters revenant_C .summon_chances 1.0 .summon_limits 1 .summon_ranks 4 .on_hit true .on_miss true .apply_once true
+effect: .name "CrystalHarbingerSpawnHerald1" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot false  .summon_monsters revenant_A .summon_chances 1.0 .summon_limits 1 .summon_ranks 4 .summon_does_roll_initiatives 1 .on_hit true .on_miss true .apply_once true
+effect: .name "CrystalHarbingerSpawnHerald2" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot false  .summon_monsters revenant_B .summon_chances 1.0 .summon_limits 1 .summon_ranks 4 .summon_does_roll_initiatives 1 .on_hit true .on_miss true .apply_once true
+effect: .name "CrystalHarbingerSpawnHerald3" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot false  .summon_monsters revenant_C .summon_chances 1.0 .summon_limits 1 .summon_ranks 4 .summon_does_roll_initiatives 1 .on_hit true .on_miss true .apply_once true
 
 //Liquid Slash
 effect: .name "CrystalHarbingerBlight1" .target "target" .curio_result_type "negative" .chance 80%  .dotPoison 2 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
@@ -71,13 +71,13 @@ effect: .name "CrystalHarbingerBlight4" .target "target" .curio_result_type "neg
  
 //Shard Protection
 effect: .name "CrystalHarbingerBuffTarget1" .target "target" .curio_result_type "positive" .buff_ids "crystal_harbinger_prot_buff" .on_hit true .on_miss true .queue true
-effect: .name "CrystalHarbingerDebuffSelf1" .target "performer" .curio_result_type "negative" .buff_ids "crystal_harbinger_self_prot_debuff1" "crystal_harbinger_self_dmg_received_debuff1" "crystal_harbinger_riposte_damage_low_debuff4" "crystal_harbinger_riposte_damage_high_debuff4" .duration 5 .on_hit true .on_miss true .queue true
-effect: .name "CrystalHarbingerDebuffSelf2" .target "performer" .curio_result_type "negative" .buff_ids "crystal_harbinger_self_prot_debuff2" "crystal_harbinger_self_dmg_received_debuff2" "crystal_harbinger_riposte_damage_low_debuff4" "crystal_harbinger_riposte_damage_high_debuff4" .duration 5 .on_hit true .on_miss true .queue true
-effect: .name "CrystalHarbingerDebuffSelf3" .target "performer" .curio_result_type "negative" .buff_ids "crystal_harbinger_self_prot_debuff3" "crystal_harbinger_self_dmg_received_debuff3" "crystal_harbinger_riposte_damage_low_debuff4" "crystal_harbinger_riposte_damage_high_debuff4" .duration 5 .on_hit true .on_miss true .queue true
-effect: .name "CrystalHarbingerDebuffSelf4" .target "performer" .curio_result_type "negative" .buff_ids "crystal_harbinger_self_prot_debuff4" "crystal_harbinger_self_dmg_received_debuff4" "crystal_harbinger_riposte_damage_low_debuff4" "crystal_harbinger_riposte_damage_high_debuff4" .duration 5 .on_hit true .on_miss true .queue true
+effect: .name "CrystalHarbingerDebuffSelf1" .target "performer" .curio_result_type "negative" .buff_ids "crystal_harbinger_self_prot_debuff1" "crystal_harbinger_self_dmg_received_debuff1" "crystal_harbinger_riposte_damage_low_debuff4" "crystal_harbinger_riposte_damage_high_debuff4" .duration 4 .on_hit true .on_miss true .queue true
+effect: .name "CrystalHarbingerDebuffSelf2" .target "performer" .curio_result_type "negative" .buff_ids "crystal_harbinger_self_prot_debuff2" "crystal_harbinger_self_dmg_received_debuff2" "crystal_harbinger_riposte_damage_low_debuff4" "crystal_harbinger_riposte_damage_high_debuff4" .duration 4 .on_hit true .on_miss true .queue true
+effect: .name "CrystalHarbingerDebuffSelf3" .target "performer" .curio_result_type "negative" .buff_ids "crystal_harbinger_self_prot_debuff3" "crystal_harbinger_self_dmg_received_debuff3" "crystal_harbinger_riposte_damage_low_debuff4" "crystal_harbinger_riposte_damage_high_debuff4" .duration 4 .on_hit true .on_miss true .queue true
+effect: .name "CrystalHarbingerDebuffSelf4" .target "performer" .curio_result_type "negative" .buff_ids "crystal_harbinger_self_prot_debuff4" "crystal_harbinger_self_dmg_received_debuff4" "crystal_harbinger_riposte_damage_low_debuff4" "crystal_harbinger_riposte_damage_high_debuff4" .duration 4 .on_hit true .on_miss true .queue true
 effect: .name "CrystalHarbingerAegisAlly1" .target "target" .health_damage_blocks 1 .on_hit true .on_miss true .queue true
 effect: .name "CrystalHarbingerAegisAlly2" .target "target" .health_damage_blocks 2 .on_hit true .on_miss true .queue true
-effect: .name "CrystalHarbingerGuardAlly"  .target "target" .curio_result_type "positive" .guard 1 .on_hit true .on_miss true .duration 6
+effect: .name "CrystalHarbingerGuardAlly"  .target "target" .curio_result_type "positive" .guard 1 .on_hit true .on_miss true .duration 5
 
 //Boss Kill Effect
 effect: .name "Crystalboss Kill" .target "performer_group" .chance 100% .kill_enemy_types husk .on_hit true .on_miss true .apply_once false .queue true .apply_with_result true
